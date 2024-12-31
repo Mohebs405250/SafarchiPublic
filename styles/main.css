@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    color: white;
+}
 :root{
     --primary:#314C51;
     --primary-90:#42656A;
@@ -10,64 +14,64 @@
     --primary-20:#DBFAFF;
     --primary-10:#F8FEFF;
 
-    --Secondary:#444138;
-    --Secondary-90:#59544A;
-    --Secondary-80:#6D685D;
-    --Secondary-70:#827C70;
-    --Secondary-60:#969184;
-    --Secondary-50:#AAA599;
-    --Secondary-40:#BFBAAE;
-    --Secondary-30:#D3CFC4;
-    --Secondary-20:#E8E4DB;
-    --Secondary-10:#FCF9F2;
+    --secondary:#444138;
+    --secondary-90:#59544A;
+    --secondary-80:#6D685D;
+    --secondary-70:#827C70;
+    --secondary-60:#969184;
+    --secondary-50:#AAA599;
+    --secondary-40:#BFBAAE;
+    --secondary-30:#D3CFC4;
+    --secondary-20:#E8E4DB;
+    --secondary-10:#FCF9F2;
 
 
-    --Natural:#414A53;
-    --Natural-90:#57626D;
-    --Natural-80:#6E7A86;
-    --Natural-70:#86939F;
-    --Natural-60:#A0ACB9;
-    --Natural-50:#BAC6D3;
-    --Natural-40:#D3DAE0;
-    --Natural-30:#E1E6EB;
-    --Natural-20:#EDF0F2;
-    --Natural-10:#F7F5F5;
+    --natural:#414A53;
+    --natural-90:#57626D;
+    --natural-80:#6E7A86;
+    --natural-70:#86939F;
+    --natural-60:#A0ACB9;
+    --natural-50:#BAC6D3;
+    --natural-40:#D3DAE0;
+    --natural-30:#E1E6EB;
+    --natural-20:#EDF0F2;
+    --natural-10:#F7F5F5;
 
     
-    --Success:#044327;
-    --Success-90:#0C653D;
-    --Success-80:#178755;
-    --Success-70:#26A96E;
-    --Success-60:#38CB89;
-    --Success-50:#4EEDA6;
-    --Success-40:#79FDC2;
-    --Success-30:#A1FFD5;
-    --Success-20:#C7FFE6;
-    --Success-10:#EEFFF7;
+    --success:#044327;
+    --success-90:#0C653D;
+    --success-80:#178755;
+    --success-70:#26A96E;
+    --success-60:#38CB89;
+    --success-50:#4EEDA6;
+    --success-40:#79FDC2;
+    --success-30:#A1FFD5;
+    --success-20:#C7FFE6;
+    --success-10:#EEFFF7;
     
     
-    --Warning:#5C3E00;
-    --Warning-90:#855900;
-    --Warning-80:#AD7400;
-    --Warning-70:#D69000;
-    --Warning-60:#FFAB00;
-    --Warning-50:#FFBA2E;
-    --Warning-40:#FFC95C;
-    --Warning-30:#FFD88A;
-    --Warning-20:#FFE7B7;
-    --Warning-10:#FFF6E5;
+    --warning:#5C3E00;
+    --warning-90:#855900;
+    --warning-80:#AD7400;
+    --warning-70:#D69000;
+    --warning-60:#FFAB00;
+    --warning-50:#FFBA2E;
+    --warning-40:#FFC95C;
+    --warning-30:#FFD88A;
+    --warning-20:#FFE7B7;
+    --warning-10:#FFF6E5;
     
     
-    --Error:#551000;
-    --Error-90:#771600;
-    --Error-80:#991F04;
-    --Error-70:#BB2F0F;
-    --Error-60:#DD411E;
-    --Error-50:#FF5630;
-    --Error-40:#FF7C5E;
-    --Error-30:#FFA28D;
-    --Error-20:#FFC8BC;
-    --Error-10:#FFEEEA;
+    --error:#551000;
+    --error-90:#771600;
+    --error-80:#991F04;
+    --error-70:#BB2F0F;
+    --error-60:#DD411e;
+    --error-50:#FF5630;
+    --error-40:#FF7C5e;
+    --error-30:#FFA28D;
+    --error-20:#FFC8BC;
+    --error-10:#FFEEEA;
     
 
     --info:#001E55;
