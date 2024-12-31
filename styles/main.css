@@ -1,0 +1,85 @@
+:root{
+    --primary:#314C51;
+    --primary-90:#42656A;
+    --primary-80:#557D83;
+    --primary-70:#69969D;
+    --primary-60:#7DAFB6;
+    --primary-50:#93C8D0;
+    --primary-40:#AAE1EA;
+    --primary-30:#BEF6FF;
+    --primary-20:#DBFAFF;
+    --primary-10:#F8FEFF;
+
+    --Secondary:#444138;
+    --Secondary-90:#59544A;
+    --Secondary-80:#6D685D;
+    --Secondary-70:#827C70;
+    --Secondary-60:#969184;
+    --Secondary-50:#AAA599;
+    --Secondary-40:#BFBAAE;
+    --Secondary-30:#D3CFC4;
+    --Secondary-20:#E8E4DB;
+    --Secondary-10:#FCF9F2;
+
+
+    --Natural:#414A53;
+    --Natural-90:#57626D;
+    --Natural-80:#6E7A86;
+    --Natural-70:#86939F;
+    --Natural-60:#A0ACB9;
+    --Natural-50:#BAC6D3;
+    --Natural-40:#D3DAE0;
+    --Natural-30:#E1E6EB;
+    --Natural-20:#EDF0F2;
+    --Natural-10:#F7F5F5;
+
+    
+    --Success:#044327;
+    --Success-90:#0C653D;
+    --Success-80:#178755;
+    --Success-70:#26A96E;
+    --Success-60:#38CB89;
+    --Success-50:#4EEDA6;
+    --Success-40:#79FDC2;
+    --Success-30:#A1FFD5;
+    --Success-20:#C7FFE6;
+    --Success-10:#EEFFF7;
+    
+    
+    --Warning:#5C3E00;
+    --Warning-90:#855900;
+    --Warning-80:#AD7400;
+    --Warning-70:#D69000;
+    --Warning-60:#FFAB00;
+    --Warning-50:#FFBA2E;
+    --Warning-40:#FFC95C;
+    --Warning-30:#FFD88A;
+    --Warning-20:#FFE7B7;
+    --Warning-10:#FFF6E5;
+    
+    
+    --Error:#551000;
+    --Error-90:#771600;
+    --Error-80:#991F04;
+    --Error-70:#BB2F0F;
+    --Error-60:#DD411E;
+    --Error-50:#FF5630;
+    --Error-40:#FF7C5E;
+    --Error-30:#FFA28D;
+    --Error-20:#FFC8BC;
+    --Error-10:#FFEEEA;
+    
+
+    --info:#001E55;
+    --info-90:#012A77;
+    --info-80:#093B99;
+    --info-70:#154FBB;
+    --info-60:#2465DD;
+    --info-50:#377DFF;
+    --info-40:#649AFF;
+    --info-30:#91B7FF;
+    --info-20:#BED5FF;
+    --info-10:#ECFDF3;
+    
+    
+}
