@@ -3,13 +3,30 @@
     
 }
 @media screen and (min-width:768px) {
-    .mDesktopHeaderLandingContainer{display: flex;}
+    .mHeaderLandingDesktop{display: flex;}
+    .mHeaderLandingContainer{gap: 30px;}
+    .mLandingMenu{gap: 20px;}
+    
 }
 @media screen and (min-width:992px) {
+    .mHeaderLandingContainer{gap: 32px;}
+
+
 }
 
 @media screen and (min-width:1200px) {
+    .mHeaderLandingContainer{gap: 34px;}
+    .mHeaderLanguageContainer{}
+    .mLandingMenu{gap: 24px;}
+    .mHeaderLandingLogo{margin-right: 120px;}
+    .mHeaderLandingForm{width: 219px;}
+    .mLandingFormImg{margin-left: 0;}
 }
 
 @media screen and (min-width:1400px) {
+    .mHeaderLandingContainer{
+        gap: 36px;
+    }
+    
+
 }
