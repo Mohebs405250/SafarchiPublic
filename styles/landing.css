@@ -30,26 +30,108 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: 8px;
 }
-.mHeaderLanguageText{}
-.mHeaderLanguageTextImg{}
-.mHeaderLanguageImgContainer{}
-.mHeaderLanguageImg{}
+.mHeaderLanguageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mHeaderLanguageTextImg{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 4px;
+    
+}
+.mHeaderLanguageImgContainer{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 100px;
+}
+.mHeaderLanguageImg{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
 .mLandingMenu{
     margin-left: 7.5px;
     display: flex;
     align-items: center;
+    gap: 23px;
 }
 .mLandingMenulist{
     display: flex;
     align-items: center;
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
 .mLandingMenulists{}
 .mLandingMenuLink{}
-.mHeaderLandingLogo{}
-.mHeaderLandingImg{}
-.mHeaderLandingSearchProfile{}
-.mHeaderLandingForm{}
-.mLandingFormImg{}
-.mLandingFormInput{}
+.mLandingMenuLinkImg{
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.mHeaderLandingLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+}
+.mHeaderLandingImg{
+   
+}
+.mHeaderLandingSearchProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.mHeaderLandingForm{
+    width: 219px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--natural-50);
+    border-radius: 100px;
+    gap: 8px;
+}
+.mLandingFormImg{
+}
+.mLandingFormInput{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 11px 0;
+
+}
+.mLandingFormInput::placeholder{
+    color: var(--primary-70);
+}
+.mlandingProfileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mLandingProfileImg{
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.mLandingProfile{}
+.mLandingProfileLink{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 100px;
+}
+
