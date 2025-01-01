@@ -1,15 +1,9 @@
 
 
 .mHeaderLanding{
-     background: url("../assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1.png") no-repeat center center;
-    background-size: contain;
     height: 800px; 
 }
-.mLandingHeaderBorder{
-    width: 100%;
-    height: 160px;
-    border-bottom: 1px solid var(--natural-60);
-}
+
 .mLandingNavbar{
     
 }
@@ -40,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "IBMPlexSans-Bold";
 }
 .mHeaderLanguageTextImg{
     width: 16px;
@@ -49,8 +44,8 @@
     
 }
 .mHeaderLanguageImgContainer{
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,6 +65,8 @@
 .mLandingMenulist{
     display: flex;
     align-items: center;
+    font-size: 16px;
+    font-family: "Lato-Bold";
     /* margin-right: 24px; */
 }
 .mLandingMenulists{}
@@ -84,7 +81,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
 }
 .mHeaderLandingImg{
    
@@ -103,6 +99,7 @@
     align-items: center;
     border: 1px solid var(--natural-50);
     border-radius: 100px;
+    padding: 0 8px ;
     gap: 8px;
 }
 .mLandingFormImg{
@@ -117,6 +114,7 @@
 }
 .mLandingFormInput::placeholder{
     color: var(--primary-70);
+    font-family: "Yekan-Regular";
 }
 .mlandingProfileContainer{
     display: flex;
@@ -139,3 +137,24 @@
     border-radius: 100px;
 }
 
+
+
+
+.mHeaderLandingMobileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.mMobileLandingHamburgureMenu{}
+.mMobileLandingLogoContainer{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.mMobileLandingLogoTitle{
+    font-family: "IBMPlexSans-Regular";
+    font-size: 20px;
+    color: var(--natural);
+}
+.mMobileLandingLogoImg{}
