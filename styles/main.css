@@ -87,3 +87,8 @@ a{
     
     
 }
+.button{
+    background: var(--primary-80);
+    border-radius: 8px;
+    color: white;
+}

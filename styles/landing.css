@@ -81,8 +81,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50px;
 }
 .mHeaderLandingImg{
+    width: 87px;
+    margin-right: 80px;
    
 }
 .mHeaderLandingSearchProfile{
@@ -92,7 +95,7 @@
     gap: 40px;
 }
 .mHeaderLandingForm{
-    width: 194px;
+    width: 180px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -158,3 +161,38 @@
     color: var(--natural);
 }
 .mMobileLandingLogoImg{}
+
+
+
+.HeaderLandingContentContainer{
+    display: flex;
+    justify-content: end;
+}
+.HeaderLandingContent{
+    padding: 40px 42px;
+    margin-top: 34px;
+    border: 1px solid var(--primary-10); 
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    gap: 32px;
+}
+.HeaderLandingTitle{
+    color: var(--secondary-10);
+    font-size: 40px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.HeaderLandingDescription{
+    color: var(--secondary-20);
+    font-size: 21px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.HeaderLandingbutton{
+    padding: 20px 40px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

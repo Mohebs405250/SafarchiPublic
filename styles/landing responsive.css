@@ -19,7 +19,7 @@
     .mHeaderLandingContainer{gap: 32px;}
     .mHeaderLanguageImgContainer{width: 40px;height: 40px;}
     .mLandingMenu{gap: 24px;}
-
+    .mHeaderLandingImg{width: 116px; margin-right: 130px;}
 
 }
 
@@ -29,6 +29,8 @@
     .mHeaderLandingLogo{margin-right: 120px;}
     .mHeaderLandingForm{width: 219px;}
     .mLandingFormImg{margin-left: 0;}
+    .mHeaderLandingImg{ margin-right: 0;}
+
 }
 
 @media screen and (min-width:1400px) {
