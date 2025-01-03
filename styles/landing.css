@@ -165,8 +165,8 @@
 
 
 .HeaderLandingContentContainer{
-    display: flex;
-    justify-content: end;
+    display: none;
+    justify-content: center;
 }
 .HeaderLandingContent{
     padding: 40px 42px;
@@ -195,4 +195,104 @@
 .HeaderLandingbutton{
     padding: 20px 40px; 
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.mLandingHeaderSlider{
+    position: relative;
+    top: 35px;
+    right: 778px;
+    display: none;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.mLandingHeaderSliderBox{
+    position: relative;
+    width: 142px;
+    height: 185px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mLandingHeaderTour{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(147, 200, 200, 0.5);
+    color: var(--primary-10);
+    padding: 8px 0;
+}
+.mLandingHeaderTourImg{
+    width: 100%;
+    height: 100%;
+}
+.mLandingHeaderTourTitle{
+    font-family:"Yekan-Bold";
+    font-size: 18px;
+    margin-left: 4px;
+}
+.mLandingHeaderTourDays{
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+
+
+.mLandingHeaderBackNext{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: none;
+    bottom: -59px;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 100;
+}
+.mLandingHeaderNext{
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mLandingHeaderBack{
+    
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mLandingHeaderMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+}
+.mLandingHeaderMobileMainContainer{
+    position: relative;
+}
+.mLandingHeaderMobileMainImg{}
+.mLandingHeaderMobilebutton{
+    padding: 16px 32px;
+    width: 64px;
+    position: absolute;
+    top: 171px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.mLandingHeaderMobileMainImgs{
+    display: flex;
+    gap: 16px;
+}
+.a{
+    background:linear-gradient(rgba(141, 200, 208, 0.6), rgba(141, 200, 208, 0.6));
+}
+.mLandingHeaderMobileSelected{
+    width: 78px;
+    height: 77px;
+    border-radius: 8px;
 }

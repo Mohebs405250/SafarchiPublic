@@ -11,6 +11,14 @@
     src: url("../assets/fonts/lato/Lato-Bold.ttf");
 }
 @font-face {
+    font-family: "Lato-Regular";
+    src: url("../assets/fonts/lato/Lato-Regular.ttf");
+}
+@font-face {
     font-family: "Yekan-Regular";
     src: url("../assets/fonts/yekan/YekanBakh/Yekan Bakh NoEn/ttf/YekanBakhNoEn-Regular.ttf");
+}
+@font-face {
+    font-family: "Yekan-Bold";
+    src: url("../assets/fonts/yekan/YekanBakh/Yekan Bakh NoEn/ttf/YekanBakhNoEn-Bold.ttf");
 }

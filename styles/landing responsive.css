@@ -13,6 +13,11 @@
     .mHeaderLandingDesktop{display: flex;}
     .mHeaderLandingContainer{gap: 30px;}
     .mLandingMenu{gap: 16px; margin-left: 0;}
+    .HeaderLandingContentContainer{display: flex;}
+    .mLandingHeaderSlider{display: flex;}
+    .mLandingHeaderBackNext{display: flex;}
+    .mLandingHeaderMobile{display: none;}
+
     
 }
 @media screen and (min-width:992px) {
@@ -20,6 +25,7 @@
     .mHeaderLanguageImgContainer{width: 40px;height: 40px;}
     .mLandingMenu{gap: 24px;}
     .mHeaderLandingImg{width: 116px; margin-right: 130px;}
+    .HeaderLandingContentContainer{display: flex; justify-content: end;}
 
 }
 
