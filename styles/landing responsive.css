@@ -20,6 +20,8 @@
     .LandingLinks{gap: 24px;}
     .LandingLinkContainer{flex-direction: row; align-items: center; justify-content: center;}
     .mLandingServiceContainer{flex-wrap: wrap; flex-direction: row;}
+    .mPopularTours{gap: 64px;}
+
 
 
 
