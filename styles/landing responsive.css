@@ -34,7 +34,7 @@
     .mEvetntDetailDate{font-size: 21px; line-height: 150%;}
     .mEvetntDetailTitle{font-size: 18px; line-height: 150%;}
     .mEvetntDetail2{left: 8px; top: 0px; width: 230px; padding: 6px;}
-
+    
 
 
 
@@ -68,6 +68,16 @@
     .mLandingServiceContainer{ flex-wrap: nowrap;}
     .mEventDetailImg{width: 530px;}
     .mEvetntDetail2{left: 8px; top: 35px; margin: 0; width: 240px;}
+    .mLandingPlaceImg{top: -37px;}
+    .mLandingPlaceImg{left: -3px;  margin: 0;}
+    .mLandingPlace{height: 280px;}
+    .mLandingPlaceImg{left: -3px;bottom: 0;}
+    .mLandingPlace{height: 280px; flex-direction: row;}
+    .mLandingPlaceDetail{width: 70%;}
+
+    
+
+    
 
 }
 
