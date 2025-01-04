@@ -430,7 +430,6 @@
     margin: 0 auto;
 }
 .mPopularTour{
-    
     position: relative;
     display: flex;
     flex-direction: column;
@@ -644,3 +643,108 @@
     border-radius: 8px;
     padding:17.5px 32px ;
 }
+
+
+.mForeignTours{
+    margin: 64px auto;
+    display: none;
+    flex-direction: column;
+    gap: 32px;
+}
+.mForeignToursHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mForeignTourcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.mForeignTour{
+    border-radius: 8px;
+    overflow: hidden;
+    width: 194px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--natural-60);
+    
+}
+.mForeignTourImg{
+    width: 194px;
+}
+.mForeignTourDay{
+    padding: 5px 12px;
+    background-color: var(--error-70);
+    position: absolute;
+    top: 16px;
+    left: 53px;
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    color: white;
+    border-radius: 100px;
+}
+.mForeignTourDiscount{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: white;
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--success-90);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mForeignTourDetail{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Lato-Bold";
+
+}
+.mForeignTourTitle{
+    font-size: 21px;
+    color: var(--natural);
+}
+.mForeignTourOldPrice{
+    color: var(--natural-70);
+    font-size: 14px;
+    position: relative;
+    z-index: 40;
+}
+.mForeignTourOldPrice>span{
+    position: absolute;
+    width: 3px;
+    height: 73px;
+    background-color: rebeccapurple;
+    z-index: 100;
+
+}
+.mForeignTourNewPrice{
+    color: var(--primary-60);
+    font-size: 14px;
+}
+.mForeignTourMore{
+    color: var(--natural-60);
+    background-color: var(--natural-10);
+    text-align: center;
+    padding: 8px ;
+}
+
+
+
+mLandingIntroducing
+mLandingIntroducingData
+mLandingIntroducingTitle
+mLandingIntroducingDescription
+mLandingIntroducingButtons
+mLandingIntroducingButton1
+mLandingIntroducingButtonImg
+mLandingIntroducingButton2
