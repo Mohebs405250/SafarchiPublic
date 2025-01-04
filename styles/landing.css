@@ -383,7 +383,7 @@
 
 .mPopularTours{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -393,6 +393,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
     align-items: center;
     gap: 24px;
 }
@@ -421,6 +422,7 @@
 }
 
 .mPopularTourContainer{
+    margin: 0 auto;
     display: flex;
     gap: 24px;
     flex-direction: column;
@@ -428,6 +430,7 @@
     margin: 0 auto;
 }
 .mPopularTour{
+    
     position: relative;
     display: flex;
     flex-direction: column;
@@ -505,4 +508,79 @@
     
     width: 16px;
     height: 16px;
+}
+
+
+
+.mEvents{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+.mEventContainer{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.mEvent{
+    position: relative;
+
+}
+.mEvetntDetail1{
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: rgba(170, 165, 153, 0.6);
+
+
+}
+.mEvetntDetail2{
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: rgba(125, 175, 182, 0.4);
+
+}
+.mEventDetailImg{
+    width: 558px;
+}
+.mEvetntDetailTitle{
+    font-size: 15px;
+    line-height: 120%;
+}
+.mEvetntDetailDate{
+    font-size: 14px;
+    font-family: "Lato-Bold";
+    color: var(--secondary-80);
+    line-height: 100%;
+}
+
+.mEvetntDetailbutton2{
+    margin:  0 auto;
+    height: 29px;
+    color: var(--primary-90);
+    width: 122px;
+}
+.mEvetntDetailbutton1{
+    margin:  0 auto;
+    height: 29px;
+    width: 122px;
 }
