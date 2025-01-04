@@ -20,7 +20,13 @@
     .LandingLinks{gap: 24px;}
     .LandingLinkContainer{flex-direction: row; align-items: center; justify-content: center;}
     .mLandingServiceContainer{flex-wrap: wrap; flex-direction: row;}
-    .mPopularTours{gap: 64px;}
+    .mPopularTours{gap: 64px; margin: 64px auto;}
+    .PopulartoursContainer{gap: 32px;}
+    .mPopularToursTitle{font-size: 28px;}
+    .mPopularTourContainer{flex-direction: row;}
+
+
+
 
 
 

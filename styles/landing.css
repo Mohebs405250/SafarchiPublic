@@ -384,10 +384,125 @@
 .mPopularTours{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 40px;
+    margin: 40px auto;
 }
-.mPopularToursHeader{}
-.mPopularToursTitle{}
-.mPopularToursMore{}
-.mPopulartoursMoreImg{}
+.PopulartoursContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.mPopularToursHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mPopularToursTitle{
+    color: var(--natural);
+    font-family: "Lato-Bold";
+    font-size: 19px;
+}
+.mPopularToursMore{
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.mPopulartoursMoreImg{
+}
+
+.mPopularTourContainer{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.mPopularTour{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--natural-50);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mPopularTourImg{
+    
+}
+.mPopularTourDay{
+    padding: 5px 12px;
+    background-color: var(--error-70);
+    position: absolute;
+    top: 28px;
+    right: 72px;
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    color: white;
+    border-radius: 100px;
+
+}
+.mPopularTourDiscount{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    color: white;
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--success-90);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mPopularTourDetails{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.mPopularTourTitles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato-Bold";
+    gap: 13px;
+}
+.mPopularTourTitle{
+    font-size: 16px;
+    color: var(--natural);
+}
+.mPopularTourTitleCost{
+    color: var(--primary-70);
+}
+.mPopularTourStars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 16px;
+}
+.mPopularTourStar{
+    cursor: pointer;
+}
+.mBrokenStar{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+.mStar{
+    
+    width: 16px;
+    height: 16px;
+}
