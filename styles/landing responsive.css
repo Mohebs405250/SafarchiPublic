@@ -17,6 +17,11 @@
     .mLandingHeaderSlider{display: flex;}
     .mLandingHeaderBackNext{display: flex;}
     .mLandingHeaderMobile{display: none;}
+    .LandingLinks{gap: 24px;}
+    .LandingLinkContainer{flex-direction: row; align-items: center; justify-content: center;}
+    .mLandingServiceContainer{flex-wrap: wrap; flex-direction: row;}
+
+
 
     
 }
@@ -26,6 +31,9 @@
     .mLandingMenu{gap: 24px;}
     .mHeaderLandingImg{width: 116px; margin-right: 130px;}
     .HeaderLandingContentContainer{display: flex; justify-content: end;}
+    .LandingLink{width: 194px; height: 64px;}
+    .LandingLinks{margin:64px auto;}
+    
 
 }
 
@@ -36,6 +44,10 @@
     .mHeaderLandingForm{width: 219px;}
     .mLandingFormImg{margin-left: 0;}
     .mHeaderLandingImg{ margin-right: 0;}
+    .mLandingServiceTitle{max-width: 255px;}
+    .mLandingService{width: 300px; height: 250px;}
+    .mLandingServiceContainer{ flex-wrap: nowrap;}
+
 
 }
 
@@ -43,6 +55,8 @@
     .mHeaderLandingContainer{
         gap: 36px;
     }
+    .mLandingService{height: 294px;}
+
     
 
 }

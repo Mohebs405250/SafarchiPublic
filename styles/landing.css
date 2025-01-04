@@ -296,3 +296,86 @@
     height: 77px;
     border-radius: 8px;
 }
+
+
+.LandingLinks{
+    display: flex;
+    gap: 16px;
+    margin:40px auto;
+    justify-content: center;
+}
+.LandingLink{
+    width: 171px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.LandingLinkContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.mLandingservices{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.mLandingServicesTitle{
+    margin-bottom: 24px;
+    color: var(--primary);
+    font-size: 24px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.mLandingServiceContainer{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.mLandingService{
+    width: 358px;
+    height: 269px;
+    border: 1px solid var(--natural-90);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+}
+.mLandingServiceImgContainer{
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    border: 2px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mLandingServiceImg{
+    width: 40px;
+    height: 40px;
+}
+.mLandingServiceTitle{
+    max-width: 294px;
+    font-size: 16px;
+    color: var(--primary);
+    font-family: "Lato-Bold";
+    line-height: 150%;
+}
+.mLandingServiceDescription{
+    font-family: "";
+    line-height: 180%;
+    font-size: 14px;
+    color: var(--natural);
+}
