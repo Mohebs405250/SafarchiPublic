@@ -438,7 +438,7 @@
     overflow: hidden;
 }
 .mPopularTourImg{
-    
+    width: 265px;
 }
 .mPopularTourDay{
     padding: 5px 12px;
@@ -590,6 +590,7 @@
     flex-direction: column;
     position: relative;
     justify-content: end;
+    border-radius: 16px;
     width: 90%;
     height: 500px;
     border: 3px solid var(--primary-80);
@@ -740,11 +741,356 @@
 
 
 
-mLandingIntroducing
-mLandingIntroducingData
-mLandingIntroducingTitle
-mLandingIntroducingDescription
-mLandingIntroducingButtons
-mLandingIntroducingButton1
-mLandingIntroducingButtonImg
-mLandingIntroducingButton2
+.mLandingIntroducing{
+    margin-top: 40px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column-reverse;
+    gap: 24px;
+    background-color: var(--primary-20);
+    border: 3px solid var(--primary-80);
+    border-radius: 16px;
+}
+.mLandingIntroducingData{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--natural);
+}
+.mLandingIntroducingTitle{
+    max-width: 100%;
+    font-size: 24px;
+    font-family: "Lato-Bold";
+}
+.mLandingIntroducingDescription{
+    max-width: 100%;
+    font-size: 16px;
+    font-family: "Yekan-Regular";
+}
+.mLandingIntroducingButtons{
+    display: flex;
+    gap: 16px;
+}
+.mLandingIntroducingButton1{
+    padding: 8px 26.5px;
+    background-color: var(--primary-80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: "Yekan-Bold";
+    font-size: 14px;
+    gap: 10px;
+}
+.mLandingIntroducingButton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: var(--primary-80);
+    gap: 10px;
+    font-family: "Yekan-Bold";
+    font-size: 14px;
+    border:1px solid var(--primary-80) ;
+
+}
+.mLandingIntroducingButtonImg{}
+.mLandingIntroducingVideo{
+    height: 190px;
+    margin: 0 auto;
+}
+
+
+.mLandingIntroducingVideoContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 40;
+}
+.mLandingIntroducingVideoSvg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 35%;
+    z-index: 100;
+    width: 65px;
+}
+
+
+.mComment{
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+.mCommentTitle{
+    font-family: "Lato-Bold";
+    font-size: 19px;
+    color: var(--primary-90);
+}
+.mCommentImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14.5px;
+}
+.mCommentImg{
+    /* width: 80px; */
+    width: 15%;
+}
+.mCommentImgPrimary{
+    /* width: 120px; */
+    width: 25%;
+}
+.mCommentInfoContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mCommentInfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+.mCommentName{
+    color: var(--primary-90);
+    font-size: 18px;
+}
+.mCommentDescription{
+    font-size: 14px;
+    color: var(--natural);
+    font-family: "Lato-Regular";
+    max-width:326px ;
+    line-height: 180%;
+}
+.mCommentInfoPerv{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.mCommentInfoBack{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.mCommentInfoContainer{}
+.mCommentInfoSvg1{
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 29px;
+    left: -11%;
+}
+.mCommentInfoSvg2{
+    width: 29px;
+    position: absolute;
+    bottom: 0;
+    right: -11%;
+}
+
+
+.mNewLandingIntroducing{flex-direction: column;}
+.mNewIntroducingButton{margin-top: 50px; text-align: right;}
+.mNewLandingIntroducingVideo{
+    position: absolute;
+}
+.mLandingIntroducingNewTimesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -11.5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    gap: 24px;
+    
+
+}
+.mLandingIntroducingNewTimeContainer{
+    padding-top: 15px;
+    border: 3px solid var(--primary);
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato-Bold";
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background-color: var(--info-10);
+    width: 60px;
+        
+
+}
+.mLandingIntroducingNewTime{
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: white;
+}
+.mNewLandingIntroducingVideoContainer{margin-bottom: 40px;}
+
+.mLandingBlogs{
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto;
+    gap: 32px;
+}
+.mLandingBlogContainer{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mLandingBlog{
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid var(--natural-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 303px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.mLandingBlogImg{}
+.mLandingBlogAvatar{
+    position: absolute;
+    left: 24px;
+    top: 150px;
+}
+.mLandingBlogDetail{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-bottom: 1px solid var(--natural-50);
+}
+.mLandingBlogTitle{
+    margin-bottom: 8px;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: var(--primary-90);
+}
+.mLandingBlogDescription{
+    margin-bottom: 16px;
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    color: var(--natural);
+}
+.mLandingBlogReadMore{
+    text-align: center;
+    color: var(--primary-80);
+    border: 1px solid var(--primary-80);
+    padding: 8px 16px;
+    border-radius: 100px;
+    margin-bottom: 32px;
+}
+.mLandingBlogButtons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    width: 250px;
+}
+.mLandingBlogButton1{
+    color: var(--primary-80);
+    border-radius: 100px;
+    display: flex;
+    border: 1px solid var(--secondary-80);
+    gap: 4px;
+    padding: 4px 8px;
+    font-family: "Lato-Regular";
+    line-height: 18px;
+
+}
+.mLandingBlogButtons{
+    margin-bottom: 8px;
+}
+.mLandingBlogButtonsImg{
+    width: 16px;
+}
+.mLandingBlogButton2{
+    font-family: "Lato-Regular";
+    line-height: 18px;
+    text-wrap: nowrap;
+    color: var(--primary-80);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-80);
+    gap: 4px;
+    padding: 4px 8px;
+}
+.mLandingAdressesAndComents{
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    color: var(--primary-80);
+    align-items: center;
+    font-family: "Lato-Regular";
+    line-height: 18px;
+    margin-bottom: 27px;
+}
+.mLandingBlogSquare{
+    width: 4px;
+    height: 4px;
+    background-color: var(--primary-80);
+}
+
+.mLandingQuestions{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    
+}
+.mLandingQuestionsTitle{
+    text-align: center;
+    font-size: 19px;
+    color: var(--natural);
+    font-family: "LatoBold";
+}
+.mLandingQuestionsContainer{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.mLandingQuestion{
+    width: 100%;
+    padding: 16px;
+    background-color: var(--secondary-20);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mLandingQuestionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    color: var(--natural);
+    font-family: "LatoBold";
+
+}
+.mLandingQuestionsTitleImg{}
+.mLandingQuestionDetailImg{
+    cursor: pointer;
+}
