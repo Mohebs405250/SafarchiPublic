@@ -1056,7 +1056,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    
+    margin-bottom: 64px;
     
 }
 .mLandingQuestionsTitle{
@@ -1094,3 +1094,141 @@
 .mLandingQuestionDetailImg{
     cursor: pointer;
 }
+
+
+
+.mFooter{
+  margin: 0 auto;  
+    
+}
+.mFooterContainer{
+    border-top: 1px solid var(--natural-70);
+    border-bottom: 1px solid var(--natural-70);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.mFooterDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+.mFooterSafarchiDetail{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--natural-60);
+    gap: 4px;
+}
+.mFooterSafarchiDetails{
+    max-width: 490px;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+.mFooterSafarchiLogo{
+    width: 70px;
+}
+.mFooterLogos{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mFooterLogo{
+    width: 80px;
+}
+.mFooterContactUs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 18px 16px;
+    width: 100%;
+}
+.mFooterContactUsTitle{
+    font-family: "lato-Bold";
+    color: var(--natural);
+    font-size: 16px;
+    text-align: center;
+}
+.mFooterContactUsNumber{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.mFooterContactUsImg{}
+.mFooterContactUsLocation{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    gap: 16px;
+}
+.mFooterContactUsEmail{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.mFooterData{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.mFooterDataSend{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mFooterDataDescription{
+    font-size: 14px;
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    color: var(--natural-90);
+}
+.mFooterDataForm{
+    width: 358px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid var(--natural-50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.mFooterDatainput{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+}
+.mFooterDataSubmit{
+    position: absolute;
+    right: 4px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-80);
+    border-radius: 4px;
+    padding: 6.5px 29px;
+}
+.mFooterDataSubmit:hover{background-color: var(--primary-90);}
+.mFooterDataSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mFooterDataSocialTitle{
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: var(--natural-90);
+}
+.mFooterDataSocialLinks{
+    display: flex;
+    gap: 24px;
+}
+.mFooterDataSocialLink{}

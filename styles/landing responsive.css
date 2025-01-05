@@ -45,7 +45,15 @@
     .mLandingBlogContainer{flex-direction: row;}
     .mLandingQuestions{gap: 48px;}
     .mLandingQuestionsTitle{font-size: 24px;}
+    .mFooterContainer{flex-direction: row;}
+    .mFooterSafarchiDetail{}
+    .mFooterDataForm{width: 383px;}
+    .mFooterDetail{width: auto;}
+    .mFooterContactUs{width: auto;}
+    .mFooterData{width: auto;}
 
+    
+    
     
 
 
