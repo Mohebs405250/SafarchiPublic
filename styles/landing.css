@@ -61,17 +61,45 @@
     margin-left: 7.5px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .mLandingMenulist{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     font-size: 16px;
     font-family: "Lato-Bold";
     /* margin-right: 24px; */
 }
+.mLandingMenulist:hover .mLandingMenuLink{
+    transform: translateY(-30px);
+}
+.mLandingMenulist:hover .mLandingMenuLinkActive{
+    transform: translateY(-16px);
+}
+.mLandingMenulist{}
 .mLandingMenulists{}
-.mLandingMenuLink{}
+.mLandingMenuLinkActive{
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    transform: translateY(30px);
+    color: #74AAB2;
+}
+.mLandingMenuLink{
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+}
+.mLandingMenuLinkActive{}
 .mLandingMenuLinkImg{
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.mLandingMenuLinkActiveImg{
     width: 16px;
     height: 16px;
     margin-left: 4px;
@@ -573,10 +601,17 @@
 }
 
 .mEvetntDetailbutton2{
+font-family: "Yekan-Bold";
     margin:  0 auto;
     height: 29px;
     color: var(--primary-90);
     width: 122px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-80);
+    border-radius: 8px;
+    color: white;
 }
 .mEvetntDetailbutton1{
     margin:  0 auto;
