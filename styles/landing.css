@@ -34,7 +34,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "IBMPlexSans-Bold";
+    font-family: "Yekan-Bold";
+    color: white;
+    line-height: 180%;
+    
 }
 .mHeaderLanguageTextImg{
     width: 16px;
@@ -149,14 +152,65 @@
 }
 .mlandingProfileContainer{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
+.mLandingProfileImgLink{}
 .mLandingProfileImg{
     margin-right: 24px;
     width: 24px;
     height: 24px;
 }
+
+.mSubMenuProfile{}
+.mSubMenuProfileDetail{}
+
+.mLandingProfileContentContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.mlandingProfileSubMenuContainer{
+    position: absolute;
+    top:23%;
+    z-index: 100;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+}
+.mHeaderSubMenuProfile{
+    padding: 11px 16px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100px;
+    transition: 0.4s;
+
+}
+.displayBlock{
+    visibility: visible;
+    opacity: 1;
+}
+.mSubMenuDetail{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--natural-90);
+    transition: 0.4s;
+}
+.mSubMenuDetailImg{
+    width: 16px;
+}
+.mSubMenuDetail:hover{
+    justify-content: center;
+    color: white;
+    background-color: var(--primary-50);
+    text-align: center;
+    transition: 0.4s;
+}
+
 .mLandingProfile{}
 .mLandingProfileLink{
     width: 40px;
@@ -244,10 +298,14 @@
 .mLandingHeaderTour{
     position: absolute;
     width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     bottom: 0;
     background-color: rgba(147, 200, 200, 0.5);
     color: var(--primary-10);
-    padding: 8px 0;
+    padding: 4px 8px;
 }
 .mLandingHeaderTourImg{
     width: 100%;
@@ -444,11 +502,14 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-
+    transform: 0.2s;
 }
-.mPopulartoursMoreImg{
+.mPopularToursMore:hover{
+    color: var(--primary-80);
 }
 
+.mPopulartoursMoreImg{  
+}
 .mPopularTourContainer{
     margin: 0 auto;
     display: flex;
@@ -668,9 +729,13 @@ display: flex;
     justify-content: end;
 }
 .mLandingPlacebutton1{
+    display: flex;
+    gap: 8px;
     padding: 16px 32px;
 }
 .mLandingPlacebutton2{
+    display: flex;
+    gap: 8px;
     color: var(--primary-80);
     border: 1px solid var(--primary-80);
     display: flex;
@@ -679,7 +744,9 @@ display: flex;
     border-radius: 8px;
     padding:17.5px 32px ;
 }
-
+.mLandingPlacebutton2:hover{
+    color: var(--primary-90);
+}
 
 .mForeignTours{
     margin: 64px auto;
@@ -708,9 +775,20 @@ display: flex;
     border: 1px solid var(--natural-60);
     
 }
-.mForeignTourImg{
-    width: 194px;
+.mForeignTourImgContainer{
+    height: 146px;
 }
+.mForeignTourImg{
+    width: 100%;
+    height: 100%;
+}
+.mForeignTourImgHover{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.mForeignTourImgContainer:hover .mForeignTourImg{display: none;}
+.mForeignTourImgContainer:hover .mForeignTourImgHover{display: block;}
 .mForeignTourDay{
     padding: 5px 12px;
     background-color: var(--error-70);
@@ -750,16 +828,20 @@ display: flex;
     color: var(--natural);
 }
 .mForeignTourOldPrice{
-    color: var(--natural-70);
     font-size: 14px;
+    background-color:#fff;
     position: relative;
     z-index: 40;
+    color: var(--natural-70);
 }
-.mForeignTourOldPrice>span{
+.mForeignTourOldPriceDecoration{
     position: absolute;
-    width: 3px;
-    height: 73px;
-    background-color: rebeccapurple;
+    width: 112px;
+    height: 1px;
+    transform: rotate();
+    top: 67%;
+    left: 8%;
+    background-color: black;
     z-index: 100;
 
 }
@@ -773,9 +855,10 @@ display: flex;
     text-align: center;
     padding: 8px ;
 }
-
-
-
+.mForeignTourMore:hover{
+    background-color: var(--primary-50);
+    color: var(--natural-80);
+}
 .mLandingIntroducing{
     margin-top: 40px;
     display: flex;
@@ -831,7 +914,12 @@ display: flex;
     border:1px solid var(--primary-80) ;
 
 }
-.mLandingIntroducingButtonImg{}
+.mLandingIntroducingButton2:hover{
+    color: var(--primary-90);
+}
+.mLandingIntroducingButtonImg{
+    
+}
 .mLandingIntroducingVideo{
     height: 190px;
     margin: 0 auto;
@@ -881,6 +969,16 @@ display: flex;
 .mCommentImgPrimary{
     /* width: 120px; */
     width: 25%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+    
+}
+.mCommentImg{}
+.mCommentImgPrimary:hover .mCommentImgPrimary::before{
+    position: absolute;
+    background: url("/assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1@2x.png");
+    z-index: 100;
 }
 .mCommentInfoContainer{
     position: relative;
@@ -934,7 +1032,15 @@ display: flex;
 
 
 .mNewLandingIntroducing{flex-direction: column;}
-.mNewIntroducingButton{margin-top: 50px; text-align: right;}
+.mNewIntroducingButton{
+    margin-top: 50px;
+    text-align: right;
+    transition: 0.4s;
+    padding: 16px 32px;
+}
+.mNewIntroducingButton:hover{
+    background-color: var(--primary-90);
+}
 .mNewLandingIntroducingVideo{
     position: absolute;
 }
@@ -1033,6 +1139,10 @@ display: flex;
     padding: 8px 16px;
     border-radius: 100px;
     margin-bottom: 32px;
+    transition: 0.2s;
+}
+.mLandingBlogReadMore:hover{
+    color: var(--primary);
 }
 .mLandingBlogButtons{
     display: flex;
@@ -1101,11 +1211,12 @@ display: flex;
     font-family: "LatoBold";
 }
 .mLandingQuestionsContainer{
-    width: 100%;
+    width: 99%;
     display: flex;
-    gap: 16px;
     flex-direction: column;
+    gap: 8px;
 }
+
 .mLandingQuestion{
     width: 100%;
     padding: 16px;
@@ -1114,6 +1225,7 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 .mLandingQuestionTitle{
     display: flex;
@@ -1125,13 +1237,46 @@ display: flex;
     font-family: "LatoBold";
 
 }
-.mLandingQuestionsTitleImg{}
+.mLandingQuestionsTitleImg{
+    transition: 0.4s;
+}
 .mLandingQuestionDetailImg{
     cursor: pointer;
 }
-
-
-
+.mLandingQuestionDescriptions{
+    display: flex;
+    position: relative;
+    margin: 32px auto;
+    justify-content: space-between;
+    width: 99%;
+    background-color: var(--primary-10);
+    color: var(--natural-90);
+    font-family: "Yekan-Regular";
+    line-height: 180%;
+    padding: 16px;
+    transition: 0.5s;
+    border-radius: 8px;
+    border-right: 4px solid var(--primary-60);
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+}
+.mLandingQuestionDescription{
+    width: 90%;
+}
+.mLandingQuestionDescriptionImg{
+    cursor: pointer;
+}
+.df{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 5s;
+    display: flex;
+}
+.rotate{
+    transition: 0.1s;
+    transform: rotate(180deg);
+}
 .mFooter{
   margin: 0 auto;  
     
@@ -1248,6 +1393,7 @@ display: flex;
     outline: none;
     border: none;
     background-color: var(--primary-80);
+    color: white;
     border-radius: 4px;
     padding: 6.5px 29px;
 }
