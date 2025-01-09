@@ -31,7 +31,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "IBMPlexSans-Bold";
+    font-family: "Yekan-Bold";
+    color: var(--white);
+    line-height: 180%;
+    
 }
 .mHeaderLanguageTextImg{
     width: 16px;
@@ -57,17 +60,45 @@
     margin-left: 7.5px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .mLandingMenulist{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     font-size: 16px;
     font-family: "Lato-Bold";
     /* margin-right: 24px; */
 }
+.mLandingMenulist:hover .mLandingMenuLink{
+    transform: translateY(-30px);
+}
+.mLandingMenulist:hover .mLandingMenuLinkActive{
+    transform: translateY(-16px);
+}
+.mLandingMenulist{}
 .mLandingMenulists{}
-.mLandingMenuLink{}
+.mLandingMenuLinkActive{
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    transform: translateY(30px);
+    color: #74AAB2;
+}
+.mLandingMenuLink{
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+}
+.mLandingMenuLinkActive{}
 .mLandingMenuLinkImg{
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.mLandingMenuLinkActiveImg{
     width: 16px;
     height: 16px;
     margin-left: 4px;
@@ -77,8 +108,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50px;
 }
 .mHeaderLandingImg{
+    width: 87px;
+    margin-right: 80px;
    
 }
 .mHeaderLandingSearchProfile{
@@ -88,7 +122,7 @@
     gap: 40px;
 }
 .mHeaderLandingForm{
-    width: 194px;
+    width: 180px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -106,6 +140,8 @@
     border: none;
     background-color: transparent;
     padding: 11px 0;
+    color: var(--white);
+
 
 }
 .mLandingFormInput::placeholder{
@@ -114,14 +150,65 @@
 }
 .mlandingProfileContainer{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
+.mLandingProfileImgLink{}
 .mLandingProfileImg{
     margin-right: 24px;
     width: 24px;
     height: 24px;
 }
+
+.mSubMenuProfile{}
+.mSubMenuProfileDetail{}
+
+.mLandingProfileContentContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.mlandingProfileSubMenuContainer{
+    position: absolute;
+    top:23%;
+    z-index: 100;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+}
+.mHeaderSubMenuProfile{
+    padding: 11px 16px;
+    background-color: var(--white);
+    border-radius: 8px;
+    width: 100px;
+    transition: 0.4s;
+
+}
+.displayBlock{
+    visibility: visible;
+    opacity: 1;
+}
+.mSubMenuDetail{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--natural-90);
+    transition: 0.4s;
+}
+.mSubMenuDetailImg{
+    width: 16px;
+}
+.mSubMenuDetail:hover{
+    justify-content: center;
+    color: var(--white);
+    background-color: var(--primary-50);
+    text-align: center;
+    transition: 0.4s;
+}
+
 .mLandingProfile{}
 .mLandingProfileLink{
     width: 40px;
@@ -151,3 +238,1184 @@
     color: var(--natural);
 }
 .mMobileLandingLogoImg{}
+
+
+
+.HeaderLandingContentContainer{
+    display: none;
+    justify-content: center;
+}
+.HeaderLandingContent{
+    padding: 40px 42px;
+    margin-top: 34px;
+    border: 1px solid var(--primary-10); 
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    gap: 32px;
+}
+.HeaderLandingTitle{
+    color: var(--secondary-10);
+    font-size: 40px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.HeaderLandingDescription{
+    color: var(--secondary-20);
+    font-size: 21px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.HeaderLandingbutton{
+    padding: 20px 40px; 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.mLandingHeaderSlider{
+    position: relative;
+    top: 35px;
+    right: 778px;
+    display: none;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.mLandingHeaderSliderBox{
+    position: relative;
+    width: 142px;
+    height: 185px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mLandingHeaderTour{
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    bottom: 0;
+    background-color: rgba(147, 200, 200, 0.5);
+    color: var(--primary-10);
+    padding: 4px 8px;
+}
+.mLandingHeaderTourImg{
+    width: 100%;
+    height: 100%;
+}
+.mLandingHeaderTourTitle{
+    font-family:"Yekan-Bold";
+    font-size: 18px;
+    margin-left: 4px;
+}
+.mLandingHeaderTourDays{
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+
+
+.mLandingHeaderBackNext{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: none;
+    bottom: -59px;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 100;
+}
+.mLandingHeaderNext{
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mLandingHeaderBack{
+    
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mLandingHeaderMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+}
+.mLandingHeaderMobileMainContainer{
+    position: relative;
+}
+.mLandingHeaderMobileMainImg{}
+.mLandingHeaderMobilebutton{
+    padding: 16px 32px;
+    width: 64px;
+    position: absolute;
+    top: 171px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.mLandingHeaderMobileMainImgs{
+    display: flex;
+    gap: 16px;
+}
+.a{
+    background:linear-gradient(rgba(141, 200, 208, 0.6), rgba(141, 200, 208, 0.6));
+}
+.mLandingHeaderMobileSelected{
+    width: 78px;
+    height: 77px;
+    border-radius: 8px;
+}
+
+
+.LandingLinks{
+    display: flex;
+    gap: 16px;
+    margin:40px auto;
+    justify-content: center;
+}
+.LandingLink{
+    width: 171px;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.LandingLinkContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.mLandingservices{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.mLandingServicesTitle{
+    margin-bottom: 24px;
+    color: var(--primary);
+    font-size: 24px;
+    line-height: 150%;
+    font-family: "Lato-Bold";
+}
+.mLandingServiceContainer{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.mLandingService{
+    width: 358px;
+    height: 269px;
+    border: 1px solid var(--natural-90);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+}
+.mLandingServiceImgContainer{
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    border: 2px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mLandingServiceImg{
+    width: 40px;
+    height: 40px;
+}
+.mLandingServiceTitle{
+    max-width: 294px;
+    font-size: 16px;
+    color: var(--primary);
+    font-family: "Lato-Bold";
+    line-height: 150%;
+}
+.mLandingServiceDescription{
+    font-family: "";
+    line-height: 180%;
+    font-size: 14px;
+    color: var(--natural);
+}
+
+
+.mPopularTours{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+}
+.PopulartoursContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 24px;
+}
+.mPopularToursHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mPopularToursTitle{
+    color: var(--natural);
+    font-family: "Lato-Bold";
+    font-size: 19px;
+}
+.mPopularToursMore{
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transform: 0.2s;
+}
+.mPopularToursMore:hover{
+    color: var(--primary-80);
+}
+
+.mPopulartoursMoreImg{  
+}
+.mPopularTourContainer{
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.mPopularTour{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--natural-50);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.mPopularTourImg{
+    width: 265px;
+}
+.mPopularTourDay{
+    padding: 5px 12px;
+    background-color: var(--error-70);
+    position: absolute;
+    top: 28px;
+    right: 72px;
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    color: var(--white);
+    border-radius: 100px;
+
+}
+.mPopularTourDiscount{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    color: var(--white);
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--success-90);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mPopularTourDetails{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.mPopularTourTitles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato-Bold";
+    gap: 13px;
+}
+.mPopularTourTitle{
+    font-size: 16px;
+    color: var(--natural);
+}
+.mPopularTourTitleCost{
+    color: var(--primary-70);
+}
+.mPopularTourStars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 16px;
+}
+.mPopularTourStar{
+    cursor: pointer;
+}
+.mBrokenStar{
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+.mStar{
+    
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.mEvents{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+.mEventContainer{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+.mEvent{
+    position: relative;
+
+}
+.mEvetntDetail1{
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: rgba(170, 165, 153, 0.6);
+
+
+}
+.mEvetntDetail2{
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: rgba(125, 175, 182, 0.4);
+
+}
+.mEventDetailImg{
+    width: 558px;
+}
+.mEvetntDetailTitle{
+    font-size: 15px;
+    line-height: 120%;
+}
+.mEvetntDetailDate{
+    font-size: 14px;
+    font-family: "Lato-Bold";
+    color: var(--secondary-80);
+    line-height: 100%;
+}
+
+.mEvetntDetailbutton2{
+font-family: "Yekan-Bold";
+    margin:  0 auto;
+    height: 29px;
+    color: var(--primary-90);
+    width: 122px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-80);
+    border-radius: 8px;
+    color: var(--white);
+}
+.mEvetntDetailbutton1{
+    margin:  0 auto;
+    height: 29px;
+    width: 122px;
+}
+
+.mLandingPlace{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    justify-content: end;
+    border-radius: 16px;
+    width: 90%;
+    height: 500px;
+    border: 3px solid var(--primary-80);
+    background-color: var(--primary-20);
+    margin-top: 181px;
+    gap: 40px;
+    padding: 40px;
+
+}
+.mLandingPlaceImg{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+.mLandingPlaceDetail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.mLandingPlaceTitle{
+    color: var(--natural);
+    font-family: "Lato-Bold";
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.mLandingPlaceDescription{
+    font-family: "Lato-Regular";
+    color: var(--natural);
+    line-height: 180%;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.mLandingPlacebuttons{
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+.mLandingPlacebutton1{
+    display: flex;
+    gap: 8px;
+    padding: 16px 32px;
+}
+.mLandingPlacebutton2{
+    display: flex;
+    gap: 8px;
+    color: var(--primary-80);
+    border: 1px solid var(--primary-80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding:17.5px 32px ;
+}
+.mLandingPlacebutton2:hover{
+    color: var(--primary-90);
+}
+
+.mForeignTours{
+    margin: 64px auto;
+    display: none;
+    flex-direction: column;
+    gap: 32px;
+}
+.mForeignToursHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mForeignTourcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.mForeignTour{
+    border-radius: 8px;
+    overflow: hidden;
+    width: 194px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--natural-60);
+    
+}
+.mForeignTourImgContainer{
+    height: 146px;
+}
+.mForeignTourImg{
+    width: 100%;
+    height: 100%;
+}
+.mForeignTourImgHover{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.mForeignTourImgContainer:hover .mForeignTourImg{display: none;}
+.mForeignTourImgContainer:hover .mForeignTourImgHover{display: block;}
+.mForeignTourDay{
+    padding: 5px 12px;
+    background-color: var(--error-70);
+    position: absolute;
+    top: 16px;
+    left: 53px;
+    font-size: 12px;
+    font-family: "Lato-Regular";
+    color: var(--white);
+    border-radius: 100px;
+}
+.mForeignTourDiscount{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: var(--white);
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--success-90);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mForeignTourDetail{
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: "Lato-Bold";
+
+}
+.mForeignTourTitle{
+    font-size: 21px;
+    color: var(--natural);
+}
+.mForeignTourOldPrice{
+    font-size: 14px;
+    background-color:#fff;
+    position: relative;
+    z-index: 40;
+    color: var(--natural-70);
+}
+.mForeignTourOldPriceDecoration{
+    position: absolute;
+    width: 112px;
+    height: 1px;
+    transform: rotate();
+    top: 67%;
+    left: 8%;
+    background-color: var(--dark);
+    z-index: 100;
+
+}
+.mForeignTourNewPrice{
+    color: var(--primary-60);
+    font-size: 14px;
+}
+.mForeignTourMore{
+    color: var(--natural-60);
+    background-color: var(--natural-10);
+    text-align: center;
+    padding: 8px ;
+}
+.mForeignTourMore:hover{
+    background-color: var(--primary-50);
+    color: var(--natural-80);
+}
+.mLandingIntroducing{
+    margin-top: 40px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column-reverse;
+    gap: 24px;
+    background-color: var(--primary-20);
+    border: 3px solid var(--primary-80);
+    border-radius: 16px;
+}
+.mLandingIntroducingData{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--natural);
+}
+.mLandingIntroducingTitle{
+    max-width: 100%;
+    font-size: 24px;
+    font-family: "Lato-Bold";
+}
+.mLandingIntroducingDescription{
+    max-width: 100%;
+    font-size: 16px;
+    font-family: "Yekan-Regular";
+}
+.mLandingIntroducingButtons{
+    display: flex;
+    gap: 16px;
+}
+.mLandingIntroducingButton1{
+    padding: 8px 26.5px;
+    background-color: var(--primary-80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: "Yekan-Bold";
+    font-size: 14px;
+    gap: 10px;
+}
+.mLandingIntroducingButton2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: var(--primary-80);
+    gap: 10px;
+    font-family: "Yekan-Bold";
+    font-size: 14px;
+    border:1px solid var(--primary-80) ;
+
+}
+.mLandingIntroducingButton2:hover{
+    color: var(--primary-90);
+}
+.mLandingIntroducingButtonImg{
+    
+}
+.mLandingIntroducingVideo{
+    height: 190px;
+    margin: 0 auto;
+}
+
+
+.mLandingIntroducingVideoContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 40;
+}
+.mLandingIntroducingVideoSvg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 35%;
+    z-index: 100;
+    width: 65px;
+}
+
+
+.mComment{
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+.mCommentTitle{
+    font-family: "Lato-Bold";
+    font-size: 19px;
+    color: var(--primary-90);
+}
+.mCommentImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14.5px;
+}
+.mCommentImg{
+    /* width: 80px; */
+    width: 15%;
+}
+.mCommentImgPrimary{
+    /* width: 120px; */
+    width: 25%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+    
+}
+.mCommentImg{}
+.mCommentImgPrimary:hover .mCommentImgPrimary::before{
+    position: absolute;
+    background: url("/assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1@2x.png");
+    z-index: 100;
+}
+.mCommentInfoContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mCommentInfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+.mCommentName{
+    color: var(--primary-90);
+    font-size: 18px;
+}
+.mCommentDescription{
+    font-size: 14px;
+    color: var(--natural);
+    font-family: "Lato-Regular";
+    max-width:326px ;
+    line-height: 180%;
+}
+.mCommentInfoPerv{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.mCommentInfoBack{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.mCommentInfoContainer{}
+.mCommentInfoSvg1{
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 29px;
+    left: -11%;
+}
+.mCommentInfoSvg2{
+    width: 29px;
+    position: absolute;
+    bottom: 0;
+    right: -11%;
+}
+
+
+.mNewLandingIntroducing{flex-direction: column;}
+.mNewIntroducingButton{
+    margin-top: 50px;
+    text-align: right;
+    transition: 0.4s;
+    padding: 16px 32px;
+}
+.mNewIntroducingButton:hover{
+    background-color: var(--primary-90);
+}
+.mNewLandingIntroducingVideo{
+    position: absolute;
+}
+.mLandingIntroducingNewTimesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -11.5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    gap: 24px;
+    
+
+}
+.mLandingIntroducingNewTimeContainer{
+    padding-top: 15px;
+    border: 3px solid var(--primary);
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato-Bold";
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background-color: var(--info-10);
+    width: 60px;
+        
+
+}
+.mLandingIntroducingNewTime{
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.mNewLandingIntroducingVideoContainer{margin-bottom: 40px;}
+
+.mLandingBlogs{
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto;
+    gap: 32px;
+}
+.mLandingBlogContainer{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mLandingBlog{
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid var(--natural-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 303px;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.mLandingBlogImg{}
+.mLandingBlogAvatar{
+    position: absolute;
+    left: 24px;
+    top: 150px;
+}
+.mLandingBlogDetail{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-bottom: 1px solid var(--natural-50);
+}
+.mLandingBlogTitle{
+    margin-bottom: 8px;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: var(--primary-90);
+}
+.mLandingBlogDescription{
+    margin-bottom: 16px;
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    color: var(--natural);
+}
+.mLandingBlogReadMore{
+    text-align: center;
+    color: var(--primary-80);
+    border: 1px solid var(--primary-80);
+    padding: 8px 16px;
+    border-radius: 100px;
+    margin-bottom: 32px;
+    transition: 0.2s;
+}
+.mLandingBlogReadMore:hover{
+    color: var(--primary);
+}
+.mLandingBlogButtons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    width: 250px;
+}
+.mLandingBlogButton1{
+    color: var(--primary-80);
+    border-radius: 100px;
+    display: flex;
+    border: 1px solid var(--secondary-80);
+    gap: 4px;
+    padding: 4px 8px;
+    font-family: "Lato-Regular";
+    line-height: 18px;
+
+}
+.mLandingBlogButtons{
+    margin-bottom: 8px;
+}
+.mLandingBlogButtonsImg{
+    width: 16px;
+}
+.mLandingBlogButton2{
+    font-family: "Lato-Regular";
+    line-height: 18px;
+    text-wrap: nowrap;
+    color: var(--primary-80);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-80);
+    gap: 4px;
+    padding: 4px 8px;
+}
+.mLandingAdressesAndComents{
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    color: var(--primary-80);
+    align-items: center;
+    font-family: "Lato-Regular";
+    line-height: 18px;
+    margin-bottom: 27px;
+}
+.mLandingBlogSquare{
+    width: 4px;
+    height: 4px;
+    background-color: var(--primary-80);
+}
+
+.mLandingQuestions{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 64px;
+    
+}
+.mLandingQuestionsTitle{
+    text-align: center;
+    font-size: 19px;
+    color: var(--natural);
+    font-family: "LatoBold";
+}
+.mLandingQuestionsContainer{
+    margin: 0 auto;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mLandingQuestion{
+    width: 100%;
+    padding: 16px;
+    background-color: var(--secondary-20);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.mLandingQuestionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    color: var(--natural);
+    font-family: "LatoBold";
+
+}
+.mLandingQuestionsTitleImg{
+    transition: 0.4s;
+}
+.mLandingQuestionDetailImg{
+    cursor: pointer;
+}
+.mLandingQuestionDescriptions{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 99%;
+    background-color: var(--primary-10);
+    color: var(--natural-90);
+    font-family: "Yekan-Regular";
+    line-height: 180%;
+    transition: 0.5s;
+    border-radius: 8px;
+    border-right: 4px solid var(--primary-60);
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+}
+.mLandingQuestionDescription{
+    width: 90%;
+}
+.mLandingQuestionDescriptionImg{
+    cursor: pointer;
+}
+.df{
+    margin: 32px auto;
+        padding: 16px;
+        transform: translateY(0px);
+        max-height: 200px;
+        opacity: 1;
+}
+@keyframes question{
+    0%{}
+    100%{
+        margin: 32px auto;
+        padding: 16px;
+        transform: translateY(0px);
+        max-height: 200px;
+        opacity: 1;
+    }
+}
+.rotate{
+    transition: 0.1s;
+    transform: rotate(180deg);
+}
+.mFooter{
+  margin: 0 auto;  
+    
+}
+.mFooterContainer{
+    border-top: 1px solid var(--natural-70);
+    border-bottom: 1px solid var(--natural-70);
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.mFooterDetail{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+.mFooterSafarchiDetail{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--natural-60);
+    gap: 4px;
+}
+.mFooterSafarchiDetails{
+    max-width: 490px;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+.mFooterSafarchiLogo{
+    width: 70px;
+}
+.mFooterLogos{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.mFooterLogo{
+    width: 80px;
+}
+.mFooterContactUs{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 18px 16px;
+    width: 100%;
+}
+.mFooterContactUsTitle{
+    font-family: "lato-Bold";
+    color: var(--natural);
+    font-size: 16px;
+    text-align: center;
+}
+.mFooterContactUsNumber{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.mFooterContactUsImg{}
+.mFooterContactUsLocation{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    gap: 16px;
+}
+.mFooterContactUsEmail{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.mFooterData{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.mFooterDataSend{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mFooterDataDescription{
+    font-size: 14px;
+    font-family: "Lato-Regular";
+    line-height: 180%;
+    color: var(--natural-90);
+}
+.mFooterDataForm{
+    width: 358px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid var(--natural-50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.mFooterDatainput{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+}
+.mFooterDataSubmit{
+    position: absolute;
+    right: 4px;
+    outline: none;
+    border: none;
+    background-color: var(--primary-80);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 6.5px 29px;
+}
+.mFooterDataSubmit:hover{background-color: var(--primary-90);}
+.mFooterDataSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mFooterDataSocialTitle{
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    color: var(--natural-90);
+}
+.mFooterDataSocialLinks{
+    display: flex;
+    gap: 24px;
+}
+.mFooterDataSocialLink{}

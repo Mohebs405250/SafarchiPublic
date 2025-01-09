@@ -1,6 +1,10 @@
+*{
+    line-height: 150%;
+    
+}
 a{
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 :root{
     --primary:#314C51;
@@ -13,7 +17,7 @@ a{
     --primary-30:#BEF6FF;
     --primary-20:#DBFAFF;
     --primary-10:#F8FEFF;
-
+                    
     --secondary:#444138;
     --secondary-90:#59544A;
     --secondary-80:#6D685D;
@@ -85,5 +89,18 @@ a{
     --info-20:#BED5FF;
     --info-10:#ECFDF3;
     
-    
+    --white: #fff;
+    --dark: #0000;
+}
+.button{
+    font-family: "Yekan-Bold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-80);
+    border-radius: 8px;
+    color: white;
+}
+.button:hover{
+    background-color: var(--primary-90);
 }
