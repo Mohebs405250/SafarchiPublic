@@ -4,7 +4,7 @@
 }
 a{
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 :root{
     --primary:#314C51;
@@ -89,7 +89,8 @@ a{
     --info-20:#BED5FF;
     --info-10:#ECFDF3;
     
-    
+    --white: #fff;
+    --dark: #0000;
 }
 .button{
     font-family: "Yekan-Bold";

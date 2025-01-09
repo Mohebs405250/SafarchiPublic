@@ -45,28 +45,22 @@
     .mLandingBlogContainer{flex-direction: row;}
     .mLandingQuestions{gap: 48px;}
     .mLandingQuestionsTitle{font-size: 24px;}
-    .mFooterContainer{flex-direction: row;}
-    .mFooterSafarchiDetail{}
-    .mFooterDataForm{width: 383px;}
-    .mFooterDetail{width: auto;}
-    .mFooterContactUs{width: auto;}
-    .mFooterData{width: auto;}
     .mLandingQuestionsContainer{gap: 16px;}
     
 
     
     
     
-
-
-
-
-
     
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 @media screen and (min-width:992px) {
@@ -81,11 +75,17 @@
     .mEvetntDetail1{left: 20px; top: 40px;}
     .mEvetntDetail2{left: 8px; top: 23px; width: 230px; padding: 8px;}
     .mForeignTours{display: flex;}
-
+    
     .mLandingIntroducing{flex-direction: row; margin-top: 64px;}
     .mLandingIntroducingVideo{height: 250px;}
     .mLandingIntroducingData{width: 60%;}
-
+    
+    .mFooterContainer{flex-direction: row;}
+    .mFooterSafarchiDetail{}
+    .mFooterDataForm{width: auto;}
+    .mFooterDetail{width: auto;}
+    .mFooterContactUs{width: auto;}
+    .mFooterData{width: auto;}
     
 
 }

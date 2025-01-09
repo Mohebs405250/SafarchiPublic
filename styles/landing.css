@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
     font-family: "Yekan-Bold";
-    color: white;
+    color: var(--white);
     line-height: 180%;
     
 }
@@ -144,6 +144,8 @@
     border: none;
     background-color: transparent;
     padding: 11px 0;
+    color: var(--white);
+
 
 }
 .mLandingFormInput::placeholder{
@@ -182,7 +184,7 @@
 }
 .mHeaderSubMenuProfile{
     padding: 11px 16px;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 8px;
     width: 100px;
     transition: 0.4s;
@@ -205,7 +207,7 @@
 }
 .mSubMenuDetail:hover{
     justify-content: center;
-    color: white;
+    color: var(--white);
     background-color: var(--primary-50);
     text-align: center;
     transition: 0.4s;
@@ -537,7 +539,7 @@
     right: 72px;
     font-size: 12px;
     font-family: "Lato-Regular";
-    color: white;
+    color: var(--white);
     border-radius: 100px;
 
 }
@@ -545,7 +547,7 @@
     position: absolute;
     right: 24px;
     top: 24px;
-    color: white;
+    color: var(--white);
     font-family: "Lato-Regular";
     font-size: 14px;
     width: 40px;
@@ -672,7 +674,7 @@ display: flex;
     justify-content: center;
     background: var(--primary-80);
     border-radius: 8px;
-    color: white;
+    color: var(--white);
 }
 .mEvetntDetailbutton1{
     margin:  0 auto;
@@ -797,14 +799,14 @@ display: flex;
     left: 53px;
     font-size: 12px;
     font-family: "Lato-Regular";
-    color: white;
+    color: var(--white);
     border-radius: 100px;
 }
 .mForeignTourDiscount{
     position: absolute;
     left: 8px;
     top: 8px;
-    color: white;
+    color: var(--white);
     font-family: "Lato-Regular";
     font-size: 14px;
     width: 40px;
@@ -841,7 +843,7 @@ display: flex;
     transform: rotate();
     top: 67%;
     left: 8%;
-    background-color: black;
+    background-color: var(--dark);
     z-index: 100;
 
 }
@@ -1079,7 +1081,7 @@ display: flex;
     width: 100%;
     font-size: 16px;
     background-color: var(--primary);
-    color: white;
+    color: var(--white);
 }
 .mNewLandingIntroducingVideoContainer{margin-bottom: 40px;}
 
@@ -1211,7 +1213,8 @@ display: flex;
     font-family: "LatoBold";
 }
 .mLandingQuestionsContainer{
-    width: 99%;
+    margin: 0 auto;
+    width: 97%;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -1246,20 +1249,19 @@ display: flex;
 .mLandingQuestionDescriptions{
     display: flex;
     position: relative;
-    margin: 32px auto;
     justify-content: space-between;
     width: 99%;
     background-color: var(--primary-10);
     color: var(--natural-90);
     font-family: "Yekan-Regular";
     line-height: 180%;
-    padding: 16px;
     transition: 0.5s;
     border-radius: 8px;
     border-right: 4px solid var(--primary-60);
     opacity: 0;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
     overflow: hidden;
-    display: none;
 }
 .mLandingQuestionDescription{
     width: 90%;
@@ -1268,10 +1270,21 @@ display: flex;
     cursor: pointer;
 }
 .df{
-    transform: translateY(0px);
-    opacity: 1;
-    transition: 5s;
-    display: flex;
+    margin: 32px auto;
+        padding: 16px;
+        transform: translateY(0px);
+        max-height: 200px;
+        opacity: 1;
+}
+@keyframes question{
+    0%{}
+    100%{
+        margin: 32px auto;
+        padding: 16px;
+        transform: translateY(0px);
+        max-height: 200px;
+        opacity: 1;
+    }
 }
 .rotate{
     transition: 0.1s;
@@ -1393,7 +1406,7 @@ display: flex;
     outline: none;
     border: none;
     background-color: var(--primary-80);
-    color: white;
+    color: var(--white);
     border-radius: 4px;
     padding: 6.5px 29px;
 }
