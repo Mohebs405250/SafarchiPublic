@@ -1,0 +1,19 @@
+
+@media screen and (min-width:576px) {
+    
+}
+@media screen and (min-width:768px) {
+.mPageLocation{display: flex;}
+.mArchiveTourForm{display: flex; width: 456px; ; margin: 0; text-align: left;}
+.mArchiveTourFormMobile{display: none;}
+.mPopularArchiveTourMore{display: none;}
+    
+}
+@media screen and (min-width:992px) {
+}
+
+@media screen and (min-width:1200px) {
+}
+
+@media screen and (min-width:1400px) {
+}
