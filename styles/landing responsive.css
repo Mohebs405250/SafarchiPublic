@@ -109,8 +109,8 @@
     .mLandingPlace{height: 280px; flex-direction: row;}
     .mLandingPlaceDetail{width: 70%;}
     .mLandingBlogContainer{flex-wrap: nowrap;}
+    .mPopularTourContainer{ gap: 8px;}
     
-
     
 
     
