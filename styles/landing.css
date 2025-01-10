@@ -487,7 +487,7 @@
 .mPopularToursTitle{
     color: var(--natural);
     font-family: "Lato-Bold";
-    font-size: 19px;
+    font-size: 16px;
 }
 .mPopularToursMore{
     cursor: pointer;
@@ -829,14 +829,14 @@ display: flex;
     color: var(--natural-70);
 }
 .mForeignTourOldPriceDecoration{
+    display: inline-block;
     position: absolute;
     width: 112px;
-    height: 1px;
-    transform: rotate();
-    top: 67%;
+    height: 5px;
+    bottom: 10px;
     left: 8%;
     background-color: var(--dark);
-    z-index: 100;
+    z-index: 10000;
 
 }
 .mForeignTourNewPrice{

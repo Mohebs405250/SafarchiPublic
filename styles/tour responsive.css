@@ -1,6 +1,5 @@
 
 @media screen and (min-width:576px) {
-
     
 }
 @media screen and (min-width:768px) {
@@ -17,6 +16,8 @@
     .mOneDayTourImg{width: 116px;}
     .mOneDayTourContent{gap: 24px;}
     .mOneDayTourDetailContainer{width: 33px; }
+    .mForeignTours{gap: 32px;}
+    .mTourSpecialDiscount{display: block;}
     
 
 

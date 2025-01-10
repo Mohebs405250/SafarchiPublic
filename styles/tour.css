@@ -86,8 +86,6 @@
     display: flex;
     gap: 16px;
     margin: 0 auto;
-
-
 }
 .mOneDayTourContentContainer{
     padding-left: 8px;
@@ -134,3 +132,26 @@
     background-color: var(--natural-10);
 }
 .mOneDayTourDetail{}
+
+
+
+.mTourForeignTourDay{
+    left: 16px;
+}
+
+.mForeignTours{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
+.mForeignTourcontainer{
+    flex-wrap: wrap;
+}
+
+.mTourSpecialDiscount{
+    display: none;
+    background: url("/assets/img/banner1en3\ 2.png") center center no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: auto;
+}
