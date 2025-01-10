@@ -1,0 +1,24 @@
+
+@media screen and (min-width:576px) {
+
+    
+}
+@media screen and (min-width:768px) {
+    .mHeaderTourMobile{display: none;}
+    .mTourSearchInput{  margin-right: 33px; text-align: right;}
+    .mTourSearchform{flex-direction: row; width: 523px;}
+    .mTourSearchImg{left: 24px;}
+
+    
+}
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:1200px) {
+    
+}
+
+@media screen and (min-width:1400px) {
+    
+}

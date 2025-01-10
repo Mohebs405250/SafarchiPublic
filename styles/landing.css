@@ -586,15 +586,12 @@
     cursor: pointer;
     width: 16px;
     height: 16px;
+    user-select: none;
 }
 .mStar{
-    
     width: 16px;
-    height: 16px;
+    fill: var(--warning-60);
 }
-
-
-
 .mEvents{
     display: flex;
     width: 100%;
