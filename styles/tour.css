@@ -4,6 +4,9 @@
     height: 477px;
     position: relative;
 }
+.mLandingFormInput{
+    color: var(--natural);
+}
 .mTourHeaderBorder{
     color: var(--natural);
 }

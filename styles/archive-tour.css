@@ -7,7 +7,9 @@
 .mLandingProfileImg{
     
 }
-
+.mLandingFormInput{
+    color: var(--natural);
+}
 .mPageLocation{
     margin-top: 64px;
     display: flex;
@@ -64,9 +66,8 @@
     border: none;
     padding-left: 20px;
     font-size: 16px;
-    text-wrap: wrap;
     outline: none;
-    width: 100%;
+    width: 77%;
     height: 100%;
 }
 .mArchiveTourFormFilter{
@@ -85,12 +86,17 @@
     width: 24px;
 }
 .mArchiveTourFormImg{
-    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     cursor: pointer;
     right: 72px;
 }
+.mArchiveTourFormImg>img{
+    width: 24px;
 
+}
 .mArchiveTourCurrentPage{
     margin: 0 auto;
     margin-bottom: 64px;
