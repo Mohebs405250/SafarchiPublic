@@ -51,10 +51,14 @@
     margin: 16px auto;
     width: 358px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    top: -105px;
+    z-index: 2000;
 }
 .mTourSearchImg{
     position: absolute;
     right: 32px;
+    display: flex;
+    align-items: center;
 }
 .mTourSearchInput{
     width: 100%;
@@ -138,9 +142,6 @@
     background-color: var(--natural-10);
 }
 .mOneDayTourDetail{}
-
-
-
 .mTourForeignTourDay{
     left: 16px;
 }
@@ -160,4 +161,52 @@
     background-size: contain;
     height: 500px;
     width: auto;
+}
+.mHeaderTourImg{
+    margin: 64px auto;
+    display: none;
+    background: url("/assets/img/Greece1\ 1.png") center center no-repeat;
+    height: 502px;
+    background-size: contain;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.mHeaderTourContentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mHeaderTourContent{
+    backdrop-filter: blur(16px);
+    position: absolute;
+    display: flex;
+    bottom: 76px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 103.5px;
+    background-color: rgba(0, 22, 26, 0.5);
+    gap: 6px;
+}
+.mHeaderTourTite{
+    line-height: 150%;
+    font-size: 21px;
+    color: var(--secondary-10);
+}
+.mHeaderTourdescription{
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--secondary-10);
+
+}
+.mHeaderTourButton{
+    /* width: 91px;
+    height: 37px; */
+    width: 81px;
+    height: 34px;
+    font-size: 14px;
+    padding: 8px 16px;
+    color: var(--white);
 }
