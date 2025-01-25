@@ -92,7 +92,7 @@
     align-items: center;
 }
 .mLandingMenuLinkActive{}
-.mLandingMenuLinkImg{
+#mLandingMenuLinkImg{
     width: 16px;
     height: 16px;
     margin-left: 4px;
@@ -355,7 +355,10 @@
 .mLandingHeaderMobileMainContainer{
     position: relative;
 }
-.mLandingHeaderMobileMainImg{}
+.mLandingHeaderMobileMainImg{
+    height: 354px;
+    background-size: contain;
+}
 .mLandingHeaderMobilebutton{
     padding: 16px 32px;
     width: 64px;
@@ -370,7 +373,6 @@
     gap: 16px;
 }
 .a{
-    background:linear-gradient(rgba(141, 200, 208, 0.6), rgba(141, 200, 208, 0.6));
 }
 .mLandingHeaderMobileSelected{
     width: 78px;
