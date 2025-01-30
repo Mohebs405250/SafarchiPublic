@@ -275,15 +275,18 @@
 }
 
 
-.mLandingHeaderSlider{
+.mySwiper{
     position: relative;
     top: 35px;
     right: 778px;
-    display: none;
     justify-content: flex-end;
     gap: 16px;
 }
-.mLandingHeaderSliderBox{
+.swiper-wrapper{
+    display: flex;
+    gap: 16px;
+}
+.swiper-slide{
     position: relative;
     width: 142px;
     height: 185px;

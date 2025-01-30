@@ -16,8 +16,6 @@
     .mHeaderLandingContainer{gap: 30px;}
     .mLandingMenu{gap: 16px; margin-left: 0;}
     .HeaderLandingContentContainer{display: flex;}
-    .mLandingHeaderSlider{display: flex;}
-    .mLandingHeaderBackNext{display: flex;}
     .mLandingHeaderMobile{display: none;}
     .LandingLinks{gap: 24px;}
     .LandingLinkContainer{flex-direction: row; align-items: center; justify-content: center;}
