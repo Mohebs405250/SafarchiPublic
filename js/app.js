@@ -188,16 +188,26 @@ star16.addEventListener("click",()=>{
     star16.classList.toggle("mStar")
 })
 
-
-//  let PopularTourStar = document.querySelectorAll("#PopularTourStar");
-//  for (let i = 0; i < PopularTourStar.length; i++) {
-//     let star1 = PopularTourStar[i].document.getElementById("star1");
-//     let star2 = PopularTourStar[i].document.getElementById("star2");
-//     let star3 = PopularTourStar[i].document.getElementById("star3");
-//     let star4 = PopularTourStar[i].document.getElementById("star4");
-//     let star5 = PopularTourStar[i].document.getElementById("star5");
-//     star1.addEventListener("click",function(){
-//         star1.classList.toggle("mStar");
-//     })
-       
+// let PopularTourStar =  document.querySelectorAll("#PopularTourStar");
+// console.log(PopularTourStar);
+// for (let i = 0; i < PopularTourStar.length; i++) {
+//     let star = PopularTourStar[i].querySelectorAll("#star");
+//     for (let j = 0; j < star.length; j++) {
+//         star[j].addEventListener("click",function(){
+//             this.classList.toggle("mstar");
+//                   if (star[j].classList.contains) {
+//                  for (let k = 0; k < j; k++) {         is corect and class is going to add but is not fill work
+//                     star[k].classList.add("mstar");
+                    
+//                 }
+//                }
+//                else{
+//                     for (let k = 0; k < j; k++) 
+//                     star[k].classList.remove("mstar");
+//                }
+           
+//         })
+        
+//     }
+    
 // }
