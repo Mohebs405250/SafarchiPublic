@@ -276,18 +276,6 @@
 
 
 .mySwiper{
-<<<<<<< HEAD
-    position: relative;
-    top: 35px;
-    right: 778px;
-    justify-content: flex-end;
-    gap: 16px;
-}
-.swiper-wrapper{
-    display: flex;
-    gap: 16px;
-}
-=======
     display: none;
     position: relative;
     width: 600px;
@@ -306,7 +294,6 @@
     /* overflow: hidden; */
 }
 
->>>>>>> moheb
 .swiper-slide{
     position: relative;
     width: 142px;
