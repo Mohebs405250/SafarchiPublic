@@ -1,0 +1,132 @@
+.mTourMenuLink{
+    color: var(--natural);
+}
+.mTourHeaderLanguageText{
+    color: var(--natural);
+}
+.mLandingProfileImg{
+    stroke: black !important;
+}
+.mLandingFormInput{
+    color: var(--natural);
+}
+.mPageLocation{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    display: none;
+}
+.mPageSlots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.mPageSlot1{
+    font-family: "Yekan-Regular";
+    line-height: 18px;
+    color: var(--natural-60);
+    font-size: 12px;
+}
+.mPageSlot2{
+    font-family: "Yekan-Regular";
+    line-height: 18px;
+    color: var(--natural-60);
+    font-size: 12px;
+}
+.mPageSlot1Img{
+    width: 12px;
+    transform: rotate(180deg);
+}
+.mPageSlotActive{
+    font-family: "Yekan-Regular";
+    line-height: 180%;
+    color: var(--natural-90);
+    font-size: 14px;
+}
+
+
+.mArchiveTourForm{
+    padding-right: 20px;
+    margin: 0 auto;
+    position: relative;
+    width: 358px;
+    height: 56px;
+    border: var(--primary-80) 2px solid;
+    overflow: hidden;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    display: none;
+}
+.mArchiveTourFormMobile{display: flex; margin-top: 40px;}
+.mArchiveTourFormInput{
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    outline: none;
+    width: 77%;
+    height: 100%;
+}
+.mArchiveTourFormFilter{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background-color: var(--primary-90);
+    border: none;
+    right: 0;
+    cursor: pointer;
+}
+.mArchiveTourFormFilterImg{
+    width: 24px;
+}
+.mArchiveTourFormImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    right: 72px;
+}
+.mArchiveTourFormImg>img{
+    width: 24px;
+
+}
+.mArchiveTourCurrentPage{
+    margin: 0 auto;
+    margin-bottom: 64px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+.mCurrentPage{
+    color: var(--primary-80);
+    font-size: 24px;
+    font-family: "Lato-Bold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--natural-60);
+    border-radius: 16px;
+    width: 55px;
+    height: 55px;
+}
+.mCurrentPage:hover{
+    background-color: var(--primary-20);
+}
+.mCurrentPageActive{
+    background-color: var(--primary-30);
+}
+.mCurrentPageSummary{
+    font-size: 24px;
+    font-family: "Lato-Bold";
+    color: var(--natural);
+}

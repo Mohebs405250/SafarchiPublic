@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tours</title>
+    <title>Archive-tours</title>
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/styles/grid.css">
-    
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/grid.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
     <link rel="stylesheet" href="/styles/landing.css">
     <link rel="stylesheet" href="/styles/landing responsive.css">
-    <link rel="stylesheet" href="/styles/tour.css">
-    <link rel="stylesheet" href="/styles/tour responsive.css">
-    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/archive-tour.css">
+    <link rel="stylesheet" href="/styles/archive-tour responsive .css">
+    <link rel="stylesheet" href="/styles/archive-tour.css">
+    <link rel="stylesheet" href="/styles/archive-tour responsive .css">
+
 </head>
 <body>
-    <header class="mMobileTourHeader">
+    <header class="mMobileTourHeader" style="background-color: var(--white)">
         <div class="mLandingHeaderBorder mTourHeaderBorder">
             <div class="container">
                 <nav class="mLandingNavbar">
@@ -37,7 +39,8 @@
                                 <ul class="mLandingMenu">
                                     <li class="mLandingMenulist mLandingMenulists"><a href="#" class="mLandingMenuLink mTourMenuLink">Services <svg id="mLandingMenuLinkImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.9201 8.94995L13.4001 15.47C12.6301 16.24 11.3701 16.24 10.6001 15.47L4.08008 8.94995" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg></a> <a href="#" class="mLandingMenuLinkActive">Services <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingMenuLinkActiveImg"></a></li>
+                                        </svg>
+                                        </a> <a href="#" class="mLandingMenuLinkActive">Services <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingMenuLinkActiveImg"></a></li>
                                     <li class="mLandingMenulist"><a href="#" class="mLandingMenuLink mTourMenuLink">Contact us</a> <a href="#" class="mLandingMenuLinkActive">Contact us</a></li>
                                     <li class="mLandingMenulist"><a href="#" class="mLandingMenuLink mTourMenuLink">About us</a> <a href="#" class="mLandingMenuLinkActive">About us</a></li>
                                     <li class="mLandingMenulist"><a href="#" class="mLandingMenuLink mTourMenuLink">Blog</a> <a href="#" class="mLandingMenuLinkActive">Blog</a></li>
@@ -55,7 +58,6 @@
                                     <svg width="24" height="24" class="mLandingProfileImg" id="mHeaderToggle3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M19.9201 8.94995L13.4001 15.47C12.6301 16.24 11.3701 16.24 10.6001 15.47L4.08008 8.94995" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
-                                        
                                     <a href="#" class="mLandingProfileLink mTourProfileLink"><img src="/assets/svgs/linear/user.svg" alt="" class="mLandingProfile"></a>
                                 </div>    
                                 <div class="mlandingProfileSubMenuContainer" id="mHeaderSub3">
@@ -79,37 +81,42 @@
                 </nav>
             </div>   
         </div>
-        <div class="mHeaderTourMobile">
-            <p class="mHeaderTourMobileContent">Experience all kinds of domestic and foreign tours with Safarchi!!!</p>
-        </div>
         <div class="container">
-            <section class="mHeaderTourImg">
-                <div class="container HeaderLandingContentContainer mHeaderTourContentContainer">
-                    <section class="HeaderLandingContent mHeaderTourContent">
-                        <h2 class="HeaderLandingTitle mHeaderTourTite">Pack your bags right now!!</h2>
-                        <p class="HeaderLandingDescription mHeaderTourdescription">A comfortable and hassle-free trip to Masal forests</p>
-                        <a href="/pages/404.html" class="mHeaderTourButton button">Start</a>
-                    </section>
+            <div class="mPageLocation">
+                <div class="mPageSlots">
+                    <a href="/mlanding.html" class="mPageSlot1">Home</a>
+                    <img src="/assets/svgs/linear/arrow-left-1.svg" alt="" class="mPageSlot1Img">
                 </div>
-            </section>
+                <div class="mPageSlots">
+                    <a href="#" class="mPageSlot2">Blog</a>
+                    <img src="/assets/svgs/linear/arrow-left-1.svg" alt="" class="mPageSlot1Img">
+                </div>
+
+                <a href="mArchive-tour.html" class="mPageSlotActive">Tour’s archive</a>
+            </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <form action="" class="mTourSearchform">
-                <label for="mTourSearchImg" class="mTourSearchImg"><img src="/assets/svgs/linear/search-normal.svg" alt="" ></label>
-                <input type="text" id="mTourSearchImg" class="mTourSearchInput" placeholder="search">
-            </form>
-        </div>
+
+        <form action="" class="mArchiveTourForm mArchiveTourFormMobile">
+            <input type="text" class="mArchiveTourFormInput">
+            <button  class="mArchiveTourFormFilter"><img src="/assets/svgs/linear/filter-add.svg" alt="" class="mArchiveTourFormFilterImg"></button>
+            <img src="/assets/svgs/linear/search-normal-1.svg" class="mArchiveTourFormImg">
+        </form>
         <section class="mPopularTours">
             <div class="PopulartoursContainer">
                 <div class="mPopularToursHeader">
                     <h2 class="mPopularToursTitle">Popular tours</h2>
-                    <a href="#" class="mPopularToursMore">More details <svg class="mPopulartoursMoreImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <form action="" class="mArchiveTourForm">
+                        <input type="text" id="mArchiveTourFormInput" class="mArchiveTourFormInput">
+                        <button class="mArchiveTourFormFilter"><img src="/assets/svgs/linear/filter-add.svg" alt="" class="mArchiveTourFormFilterImg"></button>
+                        <label for="mArchiveTourFormInput"  class="mArchiveTourFormImg"><img src="/assets/svgs/linear/search-normal-1.svg"></label>
+                    </form>
+                    <a href="#" class="mPopularToursMore mPopularArchiveTourMore">More details <svg class="mPopulartoursMoreImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.4301 5.92993L20.5001 11.9999L14.4301 18.0699" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M3.5 12H20.33" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                        </a>
+                    </a>
                 </div>
                 <div class="mPopularTourContainer">
                     <div class="mPopularTour">
@@ -241,279 +248,145 @@
             </div>
             
     </section>
-    <section class="mOneDayTours">
-        <div class="container">
-            <div class="mOneDayTourContainer">
-                <div class="mPopularToursHeader">
-                    <h2 class="mPopularToursTitle">One day tours</h2>
-                    <a href="#" class="mPopularToursMore">More details <svg class="mPopulartoursMoreImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M14.4301 5.92993L20.5001 11.9999L14.4301 18.0699" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M3.5 12H20.33" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        </a>
-                </div>
-                <div class="mOneDayTour">
-                    <div class="mOneDayTour1">
-                        <a href="/pages/404.html" class="mOneDayTourContentContainer">
-                            <img src="/assets/img/Frame 38.png" class="mOneDayTourImg">
-                            <div class="mOneDayTourContent">
-                                <h3 class="mOneDayTourTitle">Masuleh</h3>
-                                <div class="mOneDayTourPrice">10,000,000 IRR</div>
+        <section class="mPopularTours">
+            <div class="PopulartoursContainer">
+                <div class="mPopularTourContainer">
+                    <div class="mPopularTour">
+                        <img src="/assets/img/Rectangle 46 (2).png" alt="" class="mPopularTourImg">
+                        <div class="mPopularTourDay mTourPopularTourDay">2 nights</div>
+                        <div class="mPopularTourDiscount">%20</div>
+                        <div class="mPopularTourDetails">
+                            <div class="mPopularTourTitles">
+                                <h3 class="mPopularTourTitle">Abu Zaid desert tour</h3>
+                                <span class="mPopularTourTitleCost">15,000,000 IRR</span>
                             </div>
-                            <div class="mOneDayTourDetailContainer">
-                                <svg class="mOneDayTourDetail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
+                            <div class="mPopularTourStars">
+                                <div class="mPopularTourStar">
+                                    <svg width="24" class="mBrokenStar" id="star5" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star4" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star3" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star2" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star1" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    
+                                </div>
+                            <p class="mPopularToursMore">More details <img src="/assets/svgs/linear/arrow-right.svg" alt="" class="mPopulartoursMoreImg"></p>
                             </div>
-                        </a>
-                        <a href="/pages/404.html" class="mOneDayTourContentContainer">
-                            <img src="/assets/img/Frame 38.png" class="mOneDayTourImg">
-                            <div class="mOneDayTourContent">
-                                <h3 class="mOneDayTourTitle">Masuleh</h3>
-                                <div class="mOneDayTourPrice">10,000,000 IRR</div>
-                            </div>
-                            <div class="mOneDayTourDetailContainer">
-                                <svg class="mOneDayTourDetail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                            </div>
-                        </a>
+                        </div>
                     </div>
-                    <div class="mOneDayTour1">
-                        <a href="/pages/404.html" class="mOneDayTourContentContainer">
-                            <img src="/assets/img/Frame 38.png" class="mOneDayTourImg">
-                            <div class="mOneDayTourContent">
-                                <h3 class="mOneDayTourTitle">Masuleh</h3>
-                                <div class="mOneDayTourPrice">10,000,000 IRR</div>
+                    <div class="mPopularTour">
+                        <img src="/assets/img/Rectangle 46 (3).png" alt="" class="mPopularTourImg">
+                        <div class="mPopularTourDay mTourPopularTourDay">2 nights</div>
+                        <div class="mPopularTourDiscount">%20</div>
+                        <div class="mPopularTourDetails">
+                            <div class="mPopularTourTitles">
+                                <h3 class="mPopularTourTitle">Abu Zaid desert tour</h3>
+                                <span class="mPopularTourTitleCost">15,000,000 IRR</span>
                             </div>
-                            <div class="mOneDayTourDetailContainer">
-                                <svg class="mOneDayTourDetail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
+                            <div class="mPopularTourStars">
+                                <div class="mPopularTourStar">
+                                    <svg width="24" class="mBrokenStar" id="star10" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star9" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star8" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star7" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star6" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                         
+                                </div>
+                            <p class="mPopularToursMore">More details <img src="/assets/svgs/linear/arrow-right.svg" alt="" class="mPopulartoursMoreImg"></p>
                             </div>
-                        </a>
-                        <a href="/pages/404.html" class="mOneDayTourContentContainer">
-                            <img src="/assets/img/Frame 38.png" class="mOneDayTourImg">
-                            <div class="mOneDayTourContent">
-                                <h3 class="mOneDayTourTitle">Masuleh</h3>
-                                <div class="mOneDayTourPrice">10,000,000 IRR</div>
+                        </div>
+                    </div>
+                    <div class="mPopularTour">
+                        <img src="/assets/img/Rectangle 46 (4).png" alt="" class="mPopularTourImg">
+                        <div class="mPopularTourDay mTourPopularTourDay">2 nights</div>
+                        <div class="mPopularTourDiscount">%20</div>
+                        <div class="mPopularTourDetails">
+                            <div class="mPopularTourTitles">
+                                <h3 class="mPopularTourTitle">Abu Zaid desert tour</h3>
+                                <span class="mPopularTourTitleCost">15,000,000 IRR</span>
                             </div>
-                            <div class="mOneDayTourDetailContainer">
-                                <svg class="mOneDayTourDetail" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
+                            <div class="mPopularTourStars">
+                                <div class="mPopularTourStar">
+                                    <svg width="24" class="mBrokenStar" id="star15" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star14" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star13" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star12" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star11" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                         
+                                </div>
+                            <p class="mPopularToursMore">More details <img src="/assets/svgs/linear/arrow-right.svg" alt="" class="mPopulartoursMoreImg"></p>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="mPopularTour">
+                        <img src="/assets/img/Rectangle 46.png" alt="" class="mPopularTourImg">
+                        <div class="mPopularTourDay mTourPopularTourDay">2 nights</div>
+                        <div class="mPopularTourDiscount">%20</div>
+                        <div class="mPopularTourDetails">
+                            <div class="mPopularTourTitles">
+                                <h3 class="mPopularTourTitle">Abu Zaid desert tour</h3>
+                                <span class="mPopularTourTitleCost">15,000,000 IRR</span>
+                            </div>
+                            <div class="mPopularTourStars">
+                                <div class="mPopularTourStar">
+                                    <svg width="24" class="mBrokenStar" id="star20" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star19" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star18" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star17" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                                                
+                                    <svg width="24" class="mBrokenStar" id="star16" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.73 3.51001L15.49 7.03001C15.73 7.52002 16.37 7.99001 16.91 8.08001L20.1 8.61001C22.14 8.95001 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.01997 21.35C5.87997 22.62 4.57997 21.67 5.13997 19.25L5.84997 16.18C5.97997 15.6 5.74997 14.79 5.32997 14.37L2.84997 11.89C1.38997 10.43 1.85997 8.95001 3.89997 8.61001L7.08997 8.08001C7.61997 7.99001 8.25997 7.52002 8.49997 7.03001L10.26 3.51001C11.22 1.60001 12.78 1.60001 13.73 3.51001Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>                         
+                                </div>
+                            <p class="mPopularToursMore">More details <img src="/assets/svgs/linear/arrow-right.svg" alt="" class="mPopulartoursMoreImg"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            
     </section>
-    <section class="mForeignTours">
-        <div class="container">
-            <div class="mForeignToursHeader">
-                <h2 class="mPopularToursTitle">Cheap Internal tours</h2>
-                <a href="#" class="mPopularToursMore">More details <svg class="mPopulartoursMoreImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.4301 5.92993L20.5001 11.9999L14.4301 18.0699" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M3.5 12H20.33" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </a>
-            </div>
-        </div>
-            <div class="mForeignTourcontainer">
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay mTourForeignTourDay">2 nights</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay mTourForeignTourDay">2 nights</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay mTourForeignTourDay">2 nights</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay mTourForeignTourDay">2 nights</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay mTourForeignTourDay">2 nights</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-            </div>
-    </section>
-    <div class="container">
-        <a href="/pages/mArchive-tour.html" class="mTourSpecialDiscount"></a>
-    </div>
-    <div class="container">
-        <section class="mForeignTours">
-            <div class="mForeignToursHeader">
-                <h2 class="mPopularToursTitle">Cheap foreign tours</h2>
-                <a href="#" class="mPopularToursMore">More details <svg class="mPopulartoursMoreImg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.4301 5.92993L20.5001 11.9999L14.4301 18.0699" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M3.5 12H20.33" stroke="#414A53" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    </a>
-            </div>
-            <div class="mForeignTourcontainer">
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay">3 nights</div>
-                    <div class="mForeignTourDiscount">%20</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourOldPrice">650,000,000 IRR <div class="mForeignTourOldPriceDecoration"></div></span>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay">3 nights</div>
-                    <div class="mForeignTourDiscount">%20</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourOldPrice">650,000,000 IRR <span class="mForeignTourOldPriceDecoration"></span></span>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay">3 nights</div>
-                    <div class="mForeignTourDiscount">%20</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourOldPrice">650,000,000 IRR <span class="mForeignTourOldPriceDecoration"></span></span>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay">3 nights</div>
-                    <div class="mForeignTourDiscount">%20</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourOldPrice">650,000,000 IRR <span class="mForeignTourOldPriceDecoration"></span></span>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-                <div class="mForeignTour">
-                    <div class="mForeignTourImgContainer">
-                        <img src="/assets/img/hover.png" alt="" class="mForeignTourImg">
-                        <img src="/assets/img/Rectangle 46 (5).png" alt="" class="mForeignTourImgHover">
-                    </div>
-                    <div class="mForeignTourDay">3 nights</div>
-                    <div class="mForeignTourDiscount">%20</div>
-                    <div class="mForeignTourDetail">
-                        <h2 class="mForeignTourTitle">Phuket tour</h2>
-                        <span class=".mForeignTourOldPrice">650,000,000 IRR <span class="mForeignTourOldPriceDecoration"></span></span>
-                        <span class=".mForeignTourNewPrice">550,000,000 IRR</span>
-                    </div>
-                    <a href="/pages/404.html" class="mForeignTourMore">More details</a>
-                </div>
-            </div>
-        </section>
-        <section class="mLandingQuestions">
-            <h2 class="mLandingQuestionsTitle">Frequently Asked Questions</h2>
-            <div class="mLandingQuestionsContainer">
-                <div class="mLandingQuestion" id="mQuestionsToggle1">
-                    <h4 class="mLandingQuestionTitle"><img src="/assets/svgs/linear/message-question.svg" class="mLandingQuestionsTitleImg" alt=""> Is it possible to return the ticket after buying it online?</h4>
-                    <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingQuestionDetailImg" id="mQuestionsImg1">
-                </div>
-                <div class="mLandingQuestionDescriptions" id="mQuestionsContent1">
-                    <p class="mLandingQuestionDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisqueLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque</p>
-                    <img src="/assets/svgs/outline/close-square.svg" alt="" class="mLandingQuestionDescriptionImg" id="mQuestionsToggle1">
-                </div>
-                <div class="mLandingQuestion" id="mQuestionsToggle2">
-                    <h4 class="mLandingQuestionTitle"><img src="/assets/svgs/linear/message-question.svg" class="mLandingQuestionsTitleImg" alt=""> Is it possible to return the ticket after buying it online?</h4>
-                    <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingQuestionDetailImg" id="mQuestionsImg2">
-                </div>
-                <div class="mLandingQuestionDescriptions" id="mQuestionsContent2">
-                    <p class="mLandingQuestionDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisqueLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque</p>
-                    <img src="/assets/svgs/outline/close-square.svg" alt="" class="mLandingQuestionDescriptionImg" id="mQuestionsToggle2">
-                </div>
-                <div class="mLandingQuestion" id="mQuestionsToggle3">
-                    <h4 class="mLandingQuestionTitle"><img src="/assets/svgs/linear/message-question.svg" class="mLandingQuestionsTitleImg" alt=""> Is it possible to return the ticket after buying it online?</h4>
-                    <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingQuestionDetailImg" id="mQuestionsImg3">
-                </div>
-                <div class="mLandingQuestionDescriptions" id="mQuestionsContent3">
-                    <p class="mLandingQuestionDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisqueLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque</p>
-                    <img src="/assets/svgs/outline/close-square.svg" alt="" class="mLandingQuestionDescriptionImg" id="mQuestionsToggle3">
-                </div>
-                <div class="mLandingQuestion" id="mQuestionsToggle4">
-                    <h4 class="mLandingQuestionTitle"><img src="/assets/svgs/linear/message-question.svg" class="mLandingQuestionsTitleImg" alt=""> Is it possible to return the ticket after buying it online?</h4>
-                    <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingQuestionDetailImg" id="mQuestionsImg4">
-                </div>
-                <div class="mLandingQuestionDescriptions" id="mQuestionsContent4">
-                    <p class="mLandingQuestionDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisqueLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque</p>
-                    <img src="/assets/svgs/outline/close-square.svg" alt="" class="mLandingQuestionDescriptionImg" id="mQuestionsToggle4">
-                </div>
-                <div class="mLandingQuestion" id="mQuestionsToggle5">
-                    <h5 class="mLandingQuestionTitle"><img src="/assets/svgs/linear/message-question.svg" class="mLandingQuestionsTitleImg" alt=""> Is it possible to return the ticket after buying it online?</h5>
-                    <img src="/assets/svgs/twotone/arrow-down.svg" alt="" class="mLandingQuestionDetailImg" id="mQuestionsImg4">
-                </div>
-                <div class="mLandingQuestionDescriptions" id="mQuestionsContent5">
-                    <p class="mLandingQuestionDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisqueLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque</p>
-                    <img src="/assets/svgs/outline/close-square.svg" alt="" class="mLandingQuestionDescriptionImg" id="mQuestionsToggle5">
-                </div>
-            </div>
-        </section>
+    <div class="mArchiveTourCurrentPage">
+        <a href="/pages/404.html" class="mCurrentPage mCurrentPageActive">1</a>
+        <a href="/pages/404.html" class="mCurrentPage">2</a>
+        <a href="/pages/404.html" class="mCurrentPage">3</a>
+        <a href="/pages/404.html" class="mCurrentPage">4</a>
+        <span class="mCurrentPageSummary">...</span>
+        <a href="/pages/404.html" class="mCurrentPage">17</a>
     </div>
     </main>
     <footer class="mFooter">
@@ -557,10 +430,5 @@
             </div>
         </div>
     </footer>
-
-
-    <script src="/swiper/swiper-bundle.min.js"></script>
-
-    <script src="/js/app.js"></script>
 </body>
 </html>

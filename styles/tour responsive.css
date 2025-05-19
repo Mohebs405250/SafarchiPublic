@@ -1,0 +1,37 @@
+
+@media screen and (min-width:576px) {
+    
+}
+@media screen and (min-width:768px) {
+    .mHeaderTourMobile{display: none;}
+    .mTourSearchInput{  padding-right: 32px; text-align: right;}
+    .mTourSearchform{flex-direction: row; width: 523px;}
+    .mTourSearchImg{left: 24px;}
+    .mOneDayTourContainer{gap: 32px;}
+    .mOneDayTour{flex-direction: row; flex-wrap: wrap;}
+    .mOneDayTour1{gap: 24px; flex-wrap: wrap;}
+    .mOneDayTourTitle{font-size: 16px;}
+    .mOneDayTourContentContainer{gap: 16px;width: 303px;height: 148px;}
+    .mOneDayTourPrice{font-size: 14px; line-height: 18px;}
+    .mOneDayTourImg{width: 116px;}
+    .mOneDayTourContent{gap: 24px;}
+    .mOneDayTourDetailContainer{width: 33px; }
+    .mForeignTours{gap: 32px;}
+    .mTourSpecialDiscount{display: block;}
+    .mHeaderTourImg{display: flex;}
+
+
+
+    
+}
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:1200px) {
+    
+}
+
+@media screen and (min-width:1400px) {
+    
+}

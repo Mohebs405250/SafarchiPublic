@@ -1,0 +1,212 @@
+.mHeaderTourMobile{
+    background: url("/assets/img/Banner.png") no-repeat center center;
+    width: 100%;
+    height: 477px;
+    position: relative;
+}
+.mLandingFormInput{
+    color: var(--natural);
+}
+.mTourHeaderBorder{
+    color: var(--natural);
+}
+.mTourMenuLink{
+    color: var(--natural);
+}
+.mTourHeaderLanguageText{
+    color: var(--natural);
+}
+.mLandingProfileImg{
+
+}
+.mTourProfileLink{
+    background: var(--primary-90);
+}
+.mHeaderTourMobileContent{
+    display: flex;
+    max-width: 205px;
+    padding: 40px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--primary-10);
+    color: var(--primary);
+    text-align: center;
+    backdrop-filter:blur(10px) ;
+    background-color: rgba(134, 147, 159, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30%;
+}
+
+.mTourSearchform{
+    border-radius: 4px;
+    border: 1px solid var(--primary-70);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    margin: 16px auto;
+    width: 358px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    top: -105px;
+    z-index: 2000;
+}
+.mTourSearchImg{
+    position: absolute;
+    right: 32px;
+    display: flex;
+    align-items: center;
+}
+.mTourSearchInput{
+    width: 100%;
+    text-align: left;
+    padding-left: 32px;
+    height: 56px;
+    border: none;
+    outline: none;
+}
+.mTourSearchInput::placeholder{
+    font-family: "Yekan-Regular";
+    color: var(--natural-70);
+    font-size: 14px;
+}
+
+.mOneDayTours{
+
+}
+.mOneDayTourContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.mOneDayTour{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.mOneDayTour1{
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
+}
+.mOneDayTourContentContainer{
+    padding-left: 8px;
+    margin: 0 auto;
+    position: relative;
+    width: 300px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px var(--natural-50) solid;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    width: 171px;
+     height: 67px;
+}
+.mOneDayTourImg{
+    width: 55px;
+    border-radius: 4px;
+}
+.mOneDayTourContent{
+    display: flex;
+    flex-direction: column;
+}
+.mOneDayTourTitle{
+    font-size: 12px;
+    font-family: "Lato-Bold";
+    color: var(--natural);
+}
+.mOneDayTourPrice{
+    color: var(--primary-80);
+    font-size: 10px;
+    line-height: 180%;
+}
+.mOneDayTourDetailContainer{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 67px;
+    background-color: var(--natural-10);
+}
+.mOneDayTourDetail{}
+.mTourForeignTourDay{
+    left: 16px;
+}
+
+.mForeignTours{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
+.mForeignTourcontainer{
+    flex-wrap: wrap;
+}
+
+.mTourSpecialDiscount{
+    display: none;
+    background: url("/assets/img/banner1en3\ 2.png") center center no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: auto;
+}
+.mHeaderTourImg{
+    margin: 64px auto;
+    display: none;
+    background: url("/assets/img/Greece1\ 1.png") center center no-repeat;
+    height: 502px;
+    background-size: contain;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.mHeaderTourContentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mHeaderTourContent{
+    backdrop-filter: blur(16px);
+    position: absolute;
+    display: flex;
+    bottom: 76px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 103.5px;
+    background-color: rgba(0, 22, 26, 0.5);
+    gap: 6px;
+}
+.mHeaderTourTite{
+    line-height: 150%;
+    font-size: 21px;
+    color: var(--secondary-10);
+}
+.mHeaderTourdescription{
+    font-family: "Lato-Regular";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--secondary-10);
+
+}
+.mHeaderTourButton{
+    /* width: 91px;
+    height: 37px; */
+    width: 81px;
+    height: 34px;
+    font-size: 14px;
+    padding: 8px 16px;
+    color: var(--white);
+}

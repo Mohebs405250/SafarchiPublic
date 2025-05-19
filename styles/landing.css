@@ -92,7 +92,7 @@
     align-items: center;
 }
 .mLandingMenuLinkActive{}
-.mLandingMenuLinkImg{
+#mLandingMenuLinkImg{
     width: 16px;
     height: 16px;
     margin-left: 4px;
@@ -276,6 +276,7 @@
 
 
 .mySwiper{
+<<<<<<< HEAD
     position: relative;
     top: 35px;
     right: 778px;
@@ -286,12 +287,33 @@
     display: flex;
     gap: 16px;
 }
+=======
+    display: none;
+    position: relative;
+    width: 600px;
+    direction: rtl;
+    top: 35px;
+    right: 380px;
+}
+.mySwiper2{
+    display: none;
+}
+.swiper-wrapper{
+    width: 100%;
+    display: none;
+    gap: 16px;
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+
+>>>>>>> moheb
 .swiper-slide{
     position: relative;
     width: 142px;
     height: 185px;
     border-radius: 8px;
     overflow: hidden;
+    direction: ltr;
 }
 .mLandingHeaderTour{
     position: absolute;
@@ -358,7 +380,10 @@
 .mLandingHeaderMobileMainContainer{
     position: relative;
 }
-.mLandingHeaderMobileMainImg{}
+.mLandingHeaderMobileMainImg{
+    height: 354px;
+    background-size: contain;
+}
 .mLandingHeaderMobilebutton{
     padding: 16px 32px;
     width: 64px;
@@ -373,7 +398,6 @@
     gap: 16px;
 }
 .a{
-    background:linear-gradient(rgba(141, 200, 208, 0.6), rgba(141, 200, 208, 0.6));
 }
 .mLandingHeaderMobileSelected{
     width: 78px;
@@ -490,7 +514,7 @@
 .mPopularToursTitle{
     color: var(--natural);
     font-family: "Lato-Bold";
-    font-size: 19px;
+    font-size: 16px;
 }
 .mPopularToursMore{
     cursor: pointer;
@@ -506,7 +530,9 @@
     color: var(--primary-80);
 }
 
-.mPopulartoursMoreImg{  
+.mPopularToursMore:hover .mPopulartoursMoreImg{
+    stroke: var(--primary-80) !important;
+
 }
 .mPopularTourContainer{
     margin: 0 auto;
@@ -519,13 +545,13 @@
 .mPopularTour{
     position: relative;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     border: 1px solid var(--natural-50);
     border-radius: 8px;
     overflow: hidden;
 }
 .mPopularTourImg{
-    width: 265px;
 }
 .mPopularTourDay{
     padding: 5px 12px;
@@ -589,15 +615,12 @@
     cursor: pointer;
     width: 16px;
     height: 16px;
+    user-select: none;
 }
 .mStar{
-    
     width: 16px;
-    height: 16px;
+    fill: var(--warning-60);
 }
-
-
-
 .mEvents{
     display: flex;
     width: 100%;
@@ -612,6 +635,7 @@
     gap: 24px;
     justify-content: center;
     margin: 0 auto;
+    flex-wrap: wrap;
 
 }
 .mEvent{
@@ -646,7 +670,8 @@
 
 }
 .mEventDetailImg{
-    width: 558px;
+    width: 390px;
+
 }
 .mEvetntDetailTitle{
     font-size: 15px;
@@ -684,15 +709,17 @@ display: flex;
     flex-direction: column;
     position: relative;
     justify-content: end;
+    margin: 0 auto;
     border-radius: 16px;
-    width: 90%;
-    height: 500px;
+    width: 80%;
+    height: 600px;
     border: 3px solid var(--primary-80);
     background-color: var(--primary-20);
     margin-top: 181px;
     gap: 40px;
     padding: 40px;
-
+    text-wrap: wrap;
+    margin-bottom: 45px;
 }
 .mLandingPlaceImg{
     position: absolute;
@@ -756,6 +783,7 @@ display: flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 95%;
 }
 .mForeignTourcontainer{
     display: flex;
@@ -833,14 +861,14 @@ display: flex;
     color: var(--natural-70);
 }
 .mForeignTourOldPriceDecoration{
+    display: inline-block;
     position: absolute;
     width: 112px;
-    height: 1px;
-    transform: rotate();
-    top: 67%;
+    height: 5px;
+    bottom: 10px;
     left: 8%;
     background-color: var(--dark);
-    z-index: 100;
+    z-index: 10000;
 
 }
 .mForeignTourNewPrice{
@@ -866,6 +894,8 @@ display: flex;
     background-color: var(--primary-20);
     border: 3px solid var(--primary-80);
     border-radius: 16px;
+    width: 84%;
+    margin: 0 auto;
 }
 .mLandingIntroducingData{
     max-width: 100%;
@@ -955,6 +985,7 @@ display: flex;
     color: var(--primary-90);
 }
 .mCommentImgContainer{
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1217,7 +1248,7 @@ display: flex;
 }
 
 .mLandingQuestion{
-    width: 100%;
+    width: 97%;
     padding: 16px;
     background-color: var(--secondary-20);
     border-radius: 8px;
@@ -1266,7 +1297,7 @@ display: flex;
     cursor: pointer;
 }
 .df{
-    margin: 32px auto;
+        margin: 32px auto;
         padding: 16px;
         transform: translateY(0px);
         max-height: 200px;
@@ -1301,6 +1332,7 @@ display: flex;
     align-items: center;
     margin: 0 auto;
     padding: 16px 0;
+    width: 95%;
 }
 .mFooterDetail{
     display: flex;
@@ -1315,9 +1347,10 @@ display: flex;
     gap: 4px;
 }
 .mFooterSafarchiDetails{
-    max-width: 490px;
+    max-width: 465px;
     font-family: "Lato-Regular";
     font-size: 12px;
+    margin-bottom: 5px;
 }
 .mFooterSafarchiLogo{
     width: 70px;
@@ -1372,6 +1405,7 @@ display: flex;
     gap: 24px;
 }
 .mFooterDataDescription{
+    width: 95%;
     font-size: 14px;
     font-family: "Lato-Regular";
     line-height: 180%;
@@ -1390,7 +1424,7 @@ display: flex;
 }
 .mFooterDatainput{
     position: absolute;
-    width: 100%;
+    width: 68%;
     height: 100%;
     border: none;
     outline: none;

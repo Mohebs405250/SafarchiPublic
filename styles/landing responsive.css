@@ -1,8 +1,9 @@
-
 @media screen and (min-width:576px) {
-    .mEventDetailImg{width: 245px;}
     .mEvetntDetail1{left: 20px; top: 7px;}
     .mEvetntDetail2{left: 0px; top: 8px; right: 0; margin: 0 auto;}
+    .mLandingPlace{width: 80%;}
+    .mLandingIntroducing{width: 80%;}
+
 }
 @media screen and (min-width:768px) {
     .mHeaderLanding{background: url("../assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1.png") no-repeat center center;}
@@ -16,6 +17,10 @@
     .mHeaderLandingContainer{gap: 30px;}
     .mLandingMenu{gap: 16px; margin-left: 0;}
     .HeaderLandingContentContainer{display: flex;}
+<<<<<<< HEAD
+=======
+    .mLandingHeaderBackNext{display: flex;}
+>>>>>>> moheb
     .mLandingHeaderMobile{display: none;}
     .LandingLinks{gap: 24px;}
     .LandingLinkContainer{flex-direction: row; align-items: center; justify-content: center;}
@@ -44,7 +49,16 @@
     .mLandingQuestions{gap: 48px;}
     .mLandingQuestionsTitle{font-size: 24px;}
     .mLandingQuestionsContainer{gap: 16px;}
-    
+    .mySwiper2{display: block;}
+    .swiper-wrapper{display: flex;}
+    .mLandingHeaderSlider{display: flex;}
+    /* .mLandingPlace{height: 500px; margin-bottom: 0;} */
+    .mEventContainer{flex-wrap: nowrap;}
+    .mLandingIntroducing{width: auto;}
+    .mFooterDataDescription{width: auto;}
+    .mFooterSafarchiDetails{max-width: 490px;}
+    .mFooterSafarchiDetail{max-width: 490px;}
+    .mForeignToursHeader{width: auto;}
 
     
     
@@ -80,7 +94,7 @@
     
     .mFooterContainer{flex-direction: row;}
     .mFooterSafarchiDetail{}
-    .mFooterDataForm{width: auto;}
+    .mFooterDataForm{width: 300px;}
     .mFooterDetail{width: auto;}
     .mFooterContactUs{width: auto;}
     .mFooterData{width: auto;}
@@ -107,8 +121,8 @@
     .mLandingPlace{height: 280px; flex-direction: row;}
     .mLandingPlaceDetail{width: 70%;}
     .mLandingBlogContainer{flex-wrap: nowrap;}
+    .mPopularTourContainer{ gap: 8px;}
     
-
     
 
     
