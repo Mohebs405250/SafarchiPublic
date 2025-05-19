@@ -9,16 +9,40 @@ let mHeadersub3 = document.getElementById("mHeaderSub3")
 mHeaderToggle3.addEventListener("click",function f3() {
     mHeadersub3.classList.toggle("displayBlock")
 })
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+function landingHeaderBgc(a) {
+    console.log(a);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 let mQuestionsToggle = document.querySelectorAll("#mQuestionsToggle");
 let mQuestionsContent = document.querySelectorAll("#mQuestionsContent");
 let mQuestionsImg = document.querySelectorAll("#mQuestionsImg");
 let mQuestionsClose = document.querySelectorAll("#mQuestionsClose");
-mQuestionsToggle.addEventListener("click",()=>{
-    mQuestionsContent.classList.toggle("df");
-    mQuestionsImg.classList.toggle("rotate");   
-})
+for (let i = 0; i < mQuestionsToggle.length; i++) {
+    mQuestionsToggle[i].addEventListener("click",function(){
+        mQuestionsContent[i].classList.toggle("df");
+        mQuestionsImg[i].classList.toggle("rotate");   
+    })
+    mQuestionsClose[i].addEventListener("click",function(){
+        mQuestionsContent[i].classList.toggle("df");
+        mQuestionsImg[i].classList.toggle("rotate");   
+    })
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// mQuestionsToggle.forEach(i => {
+//     i.addEventListener("click",function(){
+//         i.classList.toggle("df");
+//     })
+//     mQuestionsImg.forEach(j=>{
 
+//     })
+// });
+
+
+// mQuestionsContent.classList.toggle("df");
+// mQuestionsImg.classList.toggle("rotate");   
 /////////////////////////////////////////////////////////////////////////////////
 let star5= document.getElementById("star5")
 let star4= document.getElementById("star4")
@@ -164,3 +188,16 @@ star16.addEventListener("click",()=>{
     star16.classList.toggle("mStar")
 })
 
+
+//  let PopularTourStar = document.querySelectorAll("#PopularTourStar");
+//  for (let i = 0; i < PopularTourStar.length; i++) {
+//     let star1 = PopularTourStar[i].document.getElementById("star1");
+//     let star2 = PopularTourStar[i].document.getElementById("star2");
+//     let star3 = PopularTourStar[i].document.getElementById("star3");
+//     let star4 = PopularTourStar[i].document.getElementById("star4");
+//     let star5 = PopularTourStar[i].document.getElementById("star5");
+//     star1.addEventListener("click",function(){
+//         star1.classList.toggle("mStar");
+//     })
+       
+// }
