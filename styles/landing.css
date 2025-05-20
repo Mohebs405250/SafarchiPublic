@@ -993,7 +993,7 @@ display: flex;
 .mCommentImg{}
 .mCommentImgPrimary:hover .mCommentImgPrimary::before{
     position: absolute;
-    background: url("/assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1@2x.png");
+    background: url("./assets/img/ali-ahmadi-yc9yEf-UsYc-unsplash\ 1\ 1@2x.png");
     z-index: 100;
 }
 .mCommentInfoContainer{
