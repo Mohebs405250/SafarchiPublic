@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .m404Main{
-    background: url("/assets/img/5485990\ 1.png") center center no-repeat;
+    background: url("../assets/img/5485990\ 1.png") center center no-repeat;
     background-size: contain;
     width: 276px;
     height: 171px;
