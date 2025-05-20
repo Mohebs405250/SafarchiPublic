@@ -4,4 +4,4 @@
 
 accurate of responsive safarchi is 500px until 1400px
 
-https://mohebs405250.github.io/SafarchiPublic/pages/mTour-page.html
+https://mohebs405250.github.io/SafarchiPublic
